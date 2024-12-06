@@ -4,16 +4,24 @@
     box-sizing: border-box;
 }
 .header {
+    margin-top: -19px;
     display: flex;
     background-color:rgb(00, 53, 29);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 1em;
     font-weight: 900;
     color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
 }
 .logoNU {
-    
+    width: 4%;
+    height: 4%;
 }
 .TELEPON {
     color: #D4FBB7;
@@ -25,29 +33,10 @@ h3 {
     color: #D4FBB7;
 }
     body {
-        font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    /* .header {
-        background-color: #004d40;
-        color: white;
-        padding: 10px 0;
-        text-align: center;
-    }
-    .header .contact-info {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-    .header .contact-info div {
-        display: flex;
-        align-items: center;
-    }
-    .header .contact-info div i {
-        margin-right: 10px;
-    } */
     .navbar {
         background-color: #D4FBB7;
         display: flex;
@@ -79,8 +68,8 @@ h3 {
         margin: 5px 0;
     }
     .news-section {
-        background-color: #D5D5D5;
-        padding: 20px;
+        background-color: #D9D9D9;
+        padding: 100px;
     }
     .news-section h2 {
         font-size: 20px;
@@ -92,44 +81,61 @@ h3 {
         flex-wrap: wrap;
     }
     .news-item {
-        background-color: white;
         width: 30%;
         margin: 10px 0;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: left;
+    }
+    #newspict {
+        border-radius: 10px;
     }
     .news-item a {
         color: black;
         text-decoration: none;
         font-weight: bold;
+        text-align: left;
+        
+    }
+    .newsdate {
+        color: #606d38;
+        font-size: 12px;
+        text-align: left;
+    }
+    .postedby {
+        color: #8A7CA6;
+        font-size: 12px;
+        text-align: left;
+    }
+    .newsauthor {
+        color: black;
+        font-size: 12px;
+        text-align: left;
     }
     .news-item img {
         width: 100%;
         height: auto;
     }
-    .news-item p {
-        padding: 10px;
-    }
-    .news-item h3 {
-        font-size: 16px;
-        padding: 10px;
-    }
-    .news-item small {
-        display: block;
-        padding: 0 10px 10px;
-        color: gray;
-    }
     .btn {
         background-color: #005923;
         color: #C5EA91;
-        padding: 10px 20px;
+        padding: 20px 30px;
         text-decoration: none;
         display: inline-block;
-        border-radius: 50px;
+        border-radius: 17px;
+        margin-left: 430px;
+        margin-right: auto;
+        font-weight: bold;
     }
     .facilities {
         background-color: #ffffff;
-        padding: 20px;
+        padding: 50px;
+    }
+    #circle {
+        background: url("emu.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
     }
     .facilities p {
         font-size: 15px;
@@ -147,7 +153,7 @@ h3 {
     }
     .facility-item {
         background-color: white;
-        width: 30%;
+        width: 38%;
         margin: 10px 0;
         text-align: left;
         padding: 20px;
@@ -158,10 +164,28 @@ h3 {
         margin-bottom: 10px;
     }
     .footer {
-        background-color: #004d40;
+        display: flex;
+        background-color: #005329;
+        justify-content: space-evenly;
+        font-size: 1em;
+        padding: 20px;
+        font-weight: 900;
         color: white;
-        text-align: center;
-        padding: 10px 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hubungiKami {
+        font-size: large;
+    }
+    .info {
+        font-size: medium;
+    }
+    .cpyright {
+        background-color: #005329;
+        padding: 5px 15px;
+        font-size: 1em;
+        font-weight: bold;
+        color: white;
     }
     @media (max-width: 768px) {
         .news-item, .facility-item {
@@ -176,9 +200,9 @@ h3 {
         font-family: Khyay;
         src: url(Assets/Font/Myanmar\ Khyay\ Font.zip);
     }
-    .namatk, .TELEPON,.EMAIL,.btn {
+    .namatk, .TELEPON,.EMAIL,.btn,.cpyright, .navbar {
         font-family: Georama;
     }
-    .info, .news-item, .facility-item {
+    .info, .news-items, .facility-items {
         font-family: Khyay;
     }
