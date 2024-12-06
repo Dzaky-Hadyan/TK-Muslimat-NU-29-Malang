@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Georama";
-  src: url("/Assets/Georama-VariableFont_wdth,wght.ttf") format("truetype");
+  font-family: Georama;
+  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Khyay";
-  src: url("/Assets/Khyay-Regular.ttf") format("truetype");
+  font-family: Khyay;
+  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
 }
 
 * {
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Georama;
+  font-family: Khyay;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -33,13 +33,10 @@ body {
   width: 45px;
 }
 .namaTK {
-  margin-top: 30px;
+  margin-top: 200px;
   margin-right: 130px;
 }
 
-.header .contact-info div {
-  margin: 0 10px;
-}
 .TELEPON {
   color: #d4fbb7;
   margin-top: 10px;
@@ -63,7 +60,7 @@ h3 {
 }
 .nav a {
   color: rgb(0, 0, 0);
-  margin: 0 60px;
+  margin: 0 95px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -160,7 +157,7 @@ h3 {
 .lime-box-bottom {
   background-color: #e9fed9;
   color: white;
-  height: 580px;
+  height: 600px;
   padding: 40px;
 }
 .list-tentangTK a {
@@ -218,14 +215,13 @@ h3 {
   color: white;
 }
 
-.namaTK,
-.TELEPON,
-.EMAIL,
-.btn,
+.header,
+.nav,
 .cpyright,
 .navbar {
   font-family: Georama;
 }
+
 @media (max-width: 768px) {
   .news-item,
   .facility-item {
