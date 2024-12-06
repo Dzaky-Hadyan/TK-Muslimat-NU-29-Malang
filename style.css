@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header {
     margin-top: -19px;
     display: flex;
-    background-color:rgb(00, 53, 29);
+    background-color: rgb(00, 53, 29);
     justify-content: space-evenly;
     font-size: 1em;
     font-weight: 900;
@@ -14,195 +15,244 @@
     padding-top: 17px;
     padding-bottom: 17px;
 }
+
 .garisnav {
     padding: 3px;
     background-color: #81BC55;
     display: grid;
 }
+
 .logoNU {
     width: 4%;
     height: 4%;
 }
+
 .TELEPON {
     color: #D4FBB7;
 }
+
 h3 {
     color: white;
 }
+
 .EMAIL {
     color: #D4FBB7;
 }
-    body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .navbar {
-        background-color: #D4FBB7;
-        display: flex;
-        justify-content: space-around;
-        padding: 10px 0;
-    }
-    .navbar a {
-        color: black;
-        text-decoration: none;
-        margin: 0 15px;
-        font-weight: bold;
-    }
-    .navbar a:hover {
-        color: #81BC55;
-    }
-    .main-image {
-        width: 100%;
-        height: auto;
-    }
-    .content {
-        padding: 20px;
-        text-align: center;
-    }
-    .content h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    .content p {
-        margin: 5px 0;
-    }
-    .news-section {
-        background-color: #D9D9D9;
-        padding: 100px;
-    }
-    .news-section h2 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .news-items {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .news-item {
-        width: 30%;
-        margin: 10px 0;
-    }
-    #newspict {
-        border-radius: 10px;
-    }
-    .news-item a {
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        text-align: left;
-        
-    }
-    .newsdate {
-        color: #606d38;
-        font-size: 12px;
-        text-align: left;
-    }
-    .postedby {
-        color: #8A7CA6;
-        font-size: 12px;
-        text-align: left;
-    }
-    .newsauthor {
-        color: black;
-        font-size: 12px;
-        text-align: left;
-    }
-    .news-item img {
-        width: 100%;
-        height: auto;
-    }
-    .btn {
-        background-color: #005923;
-        color: #C5EA91;
-        padding: 20px 30px;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 17px;
-        margin-left: 430px;
-        margin-right: auto;
-        font-weight: bold;
-    }
-    .facilities {
-        background-color: #ffffff;
-        padding: 50px;
-    }
-    #circle {
-        background: url("emu.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-    }
-    .facilities p {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
-    .facilities h3 {
-        color: black;
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-    .facility-items {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #D4FBB7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #81BC55;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 5px 0;
+}
+
+.news-section {
+    background-color: #D9D9D9;
+    padding: 100px;
+}
+
+.news-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.news-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    width: 30%;
+    margin: 10px 0;
+}
+
+#newspict {
+    border-radius: 10px;
+}
+
+.news-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.newsdate {
+    color: #606d38;
+    font-size: 12px;
+    text-align: left;
+}
+
+.postedby {
+    color: #8A7CA6;
+    font-size: 12px;
+    text-align: left;
+}
+
+.newsauthor {
+    color: black;
+    font-size: 12px;
+    text-align: left;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    background-color: #005923;
+    color: #C5EA91;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 17px;
+    margin-left: 430px;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.facilities {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+#circle {
+    background: url("emu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.facilities p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.facilities h3 {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.facility-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.facility-item {
+    background-color: white;
+    width: 38%;
+    margin: 10px 0;
+    text-align: left;
+    padding: 20px;
+}
+
+.facility-item i {
+    font-size: 40px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #005329;
+    justify-content: space-evenly;
+    font-size: 1em;
+    padding: 20px;
+    font-weight: 900;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hubungiKami {
+    font-size: large;
+}
+
+.info {
+    font-size: medium;
+}
+
+.cpyright {
+    background-color: #005329;
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .news-item,
     .facility-item {
-        background-color: white;
-        width: 38%;
-        margin: 10px 0;
-        text-align: left;
-        padding: 20px;
+        width: 100%;
     }
-    .facility-item i {
-        font-size: 40px;
-        color: #00796b;
-        margin-bottom: 10px;
-    }
-    .footer {
-        display: flex;
-        background-color: #005329;
-        justify-content: space-evenly;
-        font-size: 1em;
-        padding: 20px;
-        font-weight: 900;
-        color: white;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .hubungiKami {
-        font-size: large;
-    }
-    .info {
-        font-size: medium;
-    }
-    .cpyright {
-        background-color: #005329;
-        padding: 5px 15px;
-        font-size: 1em;
-        font-weight: bold;
-        color: white;
-    }
-    @media (max-width: 768px) {
-        .news-item, .facility-item {
-            width: 100%;
-        }
-    }
-    @font-face {
-        font-family: Georama;
-        src: url(Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
-    }
-    @font-face {
-        font-family: Khyay;
-        src: url(Assets/Font/Myanmar\ Khyay\ Font.zip);
-    }
-    .namatk, .TELEPON,.EMAIL,.btn,.cpyright, .navbar {
-        font-family: Georama;
-    }
-    .info, .news-items, .facility-items {
-        font-family: Khyay;
-    }
+}
+
+@font-face {
+    font-family: Georama;
+    src: url(Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Khyay;
+    src: url(Assets/Font/Myanmar\ Khyay\ Font.zip);
+}
+
+.namatk,
+.TELEPON,
+.EMAIL,
+.btn,
+.cpyright,
+.navbar {
+    font-family: Georama;
+}
+
+.info,
+.news-items,
+.facility-items {
+    font-family: Khyay;
+}
