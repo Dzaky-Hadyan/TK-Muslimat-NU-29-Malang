@@ -22,7 +22,6 @@ body {
 .header {
   display: flex;
   background-color: #005329;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   justify-content: space-around;
   font-size: 1em;
   font-weight: 900;
@@ -52,7 +51,7 @@ h3 {
   color: #d4fbb7;
   margin-top: 10px;
 }
-.strip {
+.garisnav {
   background-color: #81bc55;
   height: 5px;
 }
@@ -77,9 +76,9 @@ h3 {
 }
 .green-box {
   position: absolute;
-  height: 220px;
+  height: 240px;
   width: 615px;
-  bottom: 20px;
+  bottom: 30px;
   left: 50px;
   background-color: #005329;
   color: white;
@@ -170,6 +169,7 @@ h3 {
   text-decoration: none;
 }
 .list-tentangTK hr {
+  border: none;
   border: none;
   height: 2px;
   background-color: #81bc55;
