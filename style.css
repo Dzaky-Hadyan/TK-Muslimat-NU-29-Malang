@@ -160,3 +160,17 @@ h3 {
             width: 100%;
         }
     }
+    @font-face {
+        font-family: Georama;
+        src: url(Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+    }
+    @font-face {
+        font-family: Khyay;
+        src: url(Assets/Font/Myanmar\ Khyay\ Font.zip);
+    }
+    .namatk, .TELEPON,.EMAIL,.btn {
+        font-family: Georama;
+    }
+    .info, .news-item, .facility-item {
+        font-family: Khyay;
+    }
