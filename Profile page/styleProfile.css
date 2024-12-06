@@ -1,10 +1,20 @@
+@font-face {
+  font-family: "Georama";
+  src: url("/Assets/Georama-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Khyay";
+  src: url("/Assets/Khyay-Regular.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Georama;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -178,4 +188,47 @@ h3 {
   height: 500px;
   margin: 40px;
   margin-left: 100px;
+}
+
+.footer {
+  display: flex;
+  background-color: #005329;
+  justify-content: space-evenly;
+  font-size: 1em;
+  padding: 20px;
+  font-weight: 900;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hubungiKami {
+  font-size: large;
+}
+
+.info {
+  font-size: medium;
+}
+
+.cpyright {
+  background-color: #005329;
+  padding: 5px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.namaTK,
+.TELEPON,
+.EMAIL,
+.btn,
+.cpyright,
+.navbar {
+  font-family: Georama;
+}
+@media (max-width: 768px) {
+  .news-item,
+  .facility-item {
+    width: 100%;
+  }
 }
