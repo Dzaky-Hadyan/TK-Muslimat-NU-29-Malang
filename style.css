@@ -59,7 +59,6 @@ h3 {
         text-decoration: none;
         margin: 0 15px;
         font-weight: bold;
-        
     }
     .navbar a:hover {
         color: #81BC55;
@@ -99,6 +98,11 @@ h3 {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: left;
     }
+    .news-item a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
     .news-item img {
         width: 100%;
         height: auto;
@@ -116,12 +120,12 @@ h3 {
         color: gray;
     }
     .btn {
-        background-color: #00796b;
-        color: white;
+        background-color: #005923;
+        color: #C5EA91;
         padding: 10px 20px;
         text-decoration: none;
         display: inline-block;
-        margin: 20px 0;
+        margin: 20px 0px;
     }
     .facilities {
         background-color: #e0e0e0;
