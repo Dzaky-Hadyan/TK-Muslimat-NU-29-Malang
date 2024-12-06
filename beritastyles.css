@@ -119,3 +119,8 @@ body {
 h1, span, p {
     font-family: Khyay;
 }
+.garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
+}
