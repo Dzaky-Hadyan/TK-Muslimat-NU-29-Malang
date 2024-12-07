@@ -1,10 +1,10 @@
 @font-face {
     font-family: Georama;
-    src: url(Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
     font-family: Khyay;
-    src: url(Assets/Font/Khyay-Regular.ttf);
+    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
 }
 
 * {
