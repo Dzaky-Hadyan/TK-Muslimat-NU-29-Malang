@@ -15,12 +15,6 @@
     padding-bottom: 17px;
 }
 
-.garisnav {
-    padding: 3px;
-    background-color: #81BC55;
-    display: grid;
-}
-
 .logoNU {
     width: 4%;
     height: 4%;
@@ -28,14 +22,27 @@
 
 .TELEPON {
     color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 150px;
 }
-
-h3 {
-    color: white;
-}
-
 .EMAIL {
     color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+#tkname {
+    margin-top: 40px;
+    margin-right: 178px;
+}
+#logoTK {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
 }
 
 body {
@@ -65,6 +72,7 @@ body {
 .main-image {
     width: 100%;
     height: auto;
+    margin-bottom: -3px;
 }
 
 .content {
@@ -213,6 +221,22 @@ body {
 
 .info {
     font-size: medium;
+    color: white;
+}
+
+#baris-akhir {
+    margin-bottom: 50px;
+}
+.infoFooter {
+    margin-left: 370px;
+    margin-right: 50px;
+}
+#LogoFooter {
+    margin-top: 35px;
+    margin-left: 120px;
+}
+#namadaninfo {
+    margin-top: 35px;
 }
 
 .cpyright {
@@ -252,6 +276,7 @@ body {
 
 .info,
 .news-section,
-.facilities {
+.facilities,
+.hubungiKami {
     font-family: Khyay;
 }
