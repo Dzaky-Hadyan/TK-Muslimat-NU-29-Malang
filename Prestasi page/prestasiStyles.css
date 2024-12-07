@@ -86,7 +86,7 @@ body {
     position: relative;
 }
 .artikel {
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 120px;
 }
 .date {
@@ -150,7 +150,7 @@ h1, span, p {
 .cpyright {
     background-color: #005329;
     padding: 5px 15px;
-    font-size: 1em;
+    font-size: 10px;
     font-weight: bold;
     color: white;
 }
