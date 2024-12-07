@@ -54,17 +54,21 @@ body {
     color: #81BC55;
 }
 
-
+.content {
+    display: flex;
+}
 
 .lime-box-top {
     background-color: #81bc55;
     color: white;
-    text-align: center;
+    display:  inline;
+    text-align: justify;
     font-size: 20px;
     padding: 20px;
+    padding-right: auto;
+    padding-left: auto;
     margin-left: 40px;
     margin-right: 20px;
-    width: 41%;
 }
 
 .lime-box-bottom {
@@ -75,6 +79,7 @@ body {
     margin-left: 40px;
     margin-right: 20px;
     width: 41%;
+    margin-bottom: 20px;
 }
 
 .list-tentangTK a {
@@ -90,6 +95,11 @@ body {
     background-color: #81bc55;
     width: 100%;
     margin-top: 25px;
+}
+
+.judul {
+    font-size: large;
+    font-weight: bold;
 }
 
 .footer {
@@ -149,6 +159,7 @@ body {
 
 .info,
 .news-items,
-.facility-items {
+.facility-items,
+.judul {
     font-family: Khyay;
 }
