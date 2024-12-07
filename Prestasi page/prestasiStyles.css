@@ -28,9 +28,6 @@
     margin-top: 30px;
     margin-right: 150px;
 }
-h3 {
-    color: #8A9A5B;
-}
 .EMAIL {
     color: #D4FBB7;
     margin-top: 30px;
@@ -166,4 +163,15 @@ h1, span, p {
 }
 #baris-akhir {
     margin-bottom: 50px;
+}
+.infoFooter {
+    margin-left: 370px;
+    margin-right: 50px;
+}
+#LogoFooter {
+    margin-top: 35px;
+    margin-left: 120px;
+}
+#namadaninfo {
+    margin-top: 35px;
 }
