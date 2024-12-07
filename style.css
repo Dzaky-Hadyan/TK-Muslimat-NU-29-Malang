@@ -5,7 +5,6 @@
 }
 
 .header {
-    margin-top: -19px;
     display: flex;
     background-color: rgb(00, 53, 29);
     justify-content: space-evenly;

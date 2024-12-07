@@ -20,49 +20,56 @@ body {
   background-color: #f0f0f0;
 }
 .header {
+  margin-top: -19px;
   display: flex;
-  background-color: #005329;
-  justify-content: space-around;
+  background-color: rgb(00, 53, 29);
+  justify-content: space-evenly;
   font-size: 1em;
   font-weight: 900;
   color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
+
+.garisnav {
+  padding: 3px;
+  background-color: #81BC55;
+  display: grid;
+}
+
 .logoNU {
-  margin: 10px;
-  height: 60px;
-  width: 45px;
-}
-.namaTK {
-  margin-top: 200px;
-  margin-right: 130px;
+  width: 4%;
+  height: 4%;
 }
 
 .TELEPON {
-  color: #d4fbb7;
-  margin-top: 10px;
+  color: #D4FBB7;
 }
+
 h3 {
   color: white;
 }
+
 .EMAIL {
-  color: #d4fbb7;
-  margin-top: 10px;
+  color: #D4FBB7;
 }
-.garisnav {
-  background-color: #81bc55;
-  height: 5px;
-}
-.nav {
-  background-color: #d4fbb7;
+
+.navbar {
+  background-color: #D4FBB7;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px 0;
 }
-.nav a {
-  color: rgb(0, 0, 0);
-  margin: 0 95px;
+
+.navbar a {
+  color: black;
   text-decoration: none;
+  margin: 0 15px;
   font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #81BC55;
 }
 
 .gambarTK {
