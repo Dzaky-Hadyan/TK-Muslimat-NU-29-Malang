@@ -1,26 +1,9 @@
-@font-face {
-  font-family: Georama;
-  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Khyay;
-  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: Khyay;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
 .header {
-  margin-top: -19px;
   display: flex;
   background-color: rgb(00, 53, 29);
   justify-content: space-evenly;
@@ -52,6 +35,12 @@ h3 {
 
 .EMAIL {
   color: #D4FBB7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -229,9 +218,23 @@ h3 {
   font-family: Georama;
 }
 
+.info {
+  font-family: Khyay;
+}
+
 @media (max-width: 768px) {
   .news-item,
   .facility-item {
     width: 100%;
   }
+}
+
+@font-face {
+  font-family: Georama;
+  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Khyay;
+  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
 }
