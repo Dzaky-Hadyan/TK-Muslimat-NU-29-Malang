@@ -28,25 +28,17 @@ body {
   color: white;
 }
 .logoNU {
-  margin: 10px;
-  height: 60px;
-  width: 45px;
+  height: 4%;
+  width: 4px;
 }
-.namaTK {
-  margin-top: 200px;
-  margin-right: 130px;
-}
-
 .TELEPON {
   color: #d4fbb7;
-  margin-top: 10px;
 }
 h3 {
   color: white;
 }
 .EMAIL {
   color: #d4fbb7;
-  margin-top: 10px;
 }
 .garisnav {
   background-color: #81bc55;
