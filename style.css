@@ -222,6 +222,7 @@ body {
 .info {
     font-size: medium;
     color: white;
+    line-height: 25px;
 }
 
 #baris-akhir {
@@ -233,7 +234,7 @@ body {
 }
 #LogoFooter {
     margin-top: 35px;
-    margin-left: 120px;
+    margin-left: 60px;
 }
 #namadaninfo {
     margin-top: 35px;
@@ -277,6 +278,7 @@ body {
 .info,
 .news-section,
 .facilities,
-.hubungiKami {
+.hubungiKami,
+.bersamaNU {
     font-family: Khyay;
 }
