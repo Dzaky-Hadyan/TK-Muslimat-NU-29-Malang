@@ -26,6 +26,7 @@
 .TELEPON {
     color: #D4FBB7;
     margin-top: 30px;
+    margin-right: 150px;
 }
 h3 {
     color: #8A9A5B;
@@ -33,13 +34,15 @@ h3 {
 .EMAIL {
     color: #D4FBB7;
     margin-top: 30px;
+    margin-right: 200px;
 }
 #tkname {
     margin-top: 40px;
+    margin-right: 178px;
 }
 #logoTK {
     margin-top: 10px;
-    margin-right: px;
+    margin-left: 60px;
 }
 .navbar {
     background-color: #D4FBB7;
