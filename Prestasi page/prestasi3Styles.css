@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Georama;
+    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Khyay;
+    src: url(../Assets/Font/Khyay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    margin-top: -19px;
+    display: flex;
+    background-color: rgb(00, 53, 29);
+    justify-content: space-evenly;
+    font-size: 1em;
+    font-weight: 900;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.TELEPON {
+    color: #D4FBB7;
+    margin-top: 30px;
+}
+h3 {
+    color: #8A9A5B;
+}
+.EMAIL {
+    color: #D4FBB7;
+    margin-top: 30px;
+}
+#tkname {
+    margin-top: 40px;
+}
+#logoTK {
+    margin-top: 10px;
+    margin-right: px;
+}
+.navbar {
+    background-color: #D4FBB7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
+.navbar a:hover {
+    color: #81BC55;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-image {
+    width: 75%;
+    margin-left: 165px;
+    margin-top: 50px;
+    display: inline;
+}
+.green-box {
+    position: absolute;
+    width: fit-content; 
+    bottom: -300px;
+    left: 50px;
+    margin-left: 130px;
+    background-color: #005329;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #000000;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.container {
+    position: relative;
+}
+.artikel {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.date {
+    color: #8A9A5B;
+}
+.separator {
+    margin: 0 10px;
+    color: #D0C0F0; 
+}
+.paragraf {
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 60px;
+}
+.info {
+    color: #ffff;
+}
+.lower-section {
+    position: relative;
+    background-color: #005329; /* Dark green */
+    height: 200px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.header, .navbar {
+    font-family: Georama;
+}
+h1, span, p {
+    font-family: Khyay;
+}
+.garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
+}
+.logoNU {
+    width: 4%;
+    height: 4%;
+}
+.footer {
+    display: flex;
+    background-color: #005329;
+    justify-content: space-evenly;
+    font-size: 1em;
+    padding: 20px;
+    font-weight: 900;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.hubungiKami {
+    font-size: large;
+}
+.info {
+    font-size: medium;
+}
+
+.cpyright {
+    background-color: #005329;
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+@media (max-width: 768px) {
+
+    .news-item,
+    .facility-item {
+        width: 100%;
+    }
+}
+#baris-akhir {
+    margin-bottom: 50px;
+}
