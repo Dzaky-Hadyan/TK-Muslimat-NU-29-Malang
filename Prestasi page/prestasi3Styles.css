@@ -153,7 +153,7 @@ h1, span, p {
 .cpyright {
     background-color: #005329;
     padding: 5px 15px;
-    font-size: 1em;
+    font-size: 10px;
     font-weight: bold;
     color: white;
 }
@@ -166,4 +166,15 @@ h1, span, p {
 }
 #baris-akhir {
     margin-bottom: 50px;
+}
+.infoFooter {
+    margin-left: 370px;
+    margin-right: 50px;
+}
+#LogoFooter {
+    margin-top: 35px;
+    margin-left: 120px;
+}
+#namadaninfo {
+    margin-top: 35px;
 }
