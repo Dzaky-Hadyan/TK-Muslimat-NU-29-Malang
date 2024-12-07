@@ -13,32 +13,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header {
+  margin-top: -19px;
+  display: flex;
+  background-color: rgb(00, 53, 29);
+  justify-content: space-evenly;
+  font-size: 1em;
+  font-weight: 900;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
 body {
   font-family: Khyay;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
-.header {
-  display: flex;
-  background-color: #005329;
-  justify-content: space-around;
-  font-size: 1em;
-  font-weight: 900;
-  color: white;
+.TELEPON {
+  color: #D4FBB7;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+h3 {
+  color: #FFFFFF;
+}
+.EMAIL {
+  color: #D4FBB7;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+#tkname {
+  margin-top: 40px;
+  margin-right: 178px;
+}
+#logoTK {
+  margin-top: 10px;
+  margin-left: 60px;
 }
 .logoNU {
   height: 4%;
-  width: 4px;
+  width: 4%;
 }
-.TELEPON {
-  color: #d4fbb7;
-}
-h3 {
-  color: white;
-}
-.EMAIL {
-  color: #d4fbb7;
+.namaTK {
+  margin-top: 200px;
+  margin-right: 130px;
 }
 .garisnav {
   background-color: #81bc55;
@@ -55,6 +74,9 @@ h3 {
   margin: 0 95px;
   text-decoration: none;
   font-weight: bold;
+}
+.nav a:hover {
+  color: #81BC55;
 }
 
 .gambarTK {
