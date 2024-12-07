@@ -25,7 +25,6 @@
   padding-bottom: 17px;
 }
 body {
-  font-family: Khyay;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -60,13 +59,14 @@ h3 {
   margin-right: 130px;
 }
 .garisnav {
-  background-color: #81bc55;
-  height: 5px;
+  padding: 3px;
+  background-color: #81BC55;
+  display: grid;
 }
 .nav {
   background-color: #d4fbb7;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px 0;
 }
 .nav a {
@@ -212,28 +212,42 @@ h3 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
 .hubungiKami {
   font-size: large;
 }
-
 .info {
   font-size: medium;
 }
-
 .cpyright {
   background-color: #005329;
   padding: 5px 15px;
-  font-size: 1em;
+  font-size: 10px;
   font-weight: bold;
   color: white;
 }
+.infoFooter {
+  margin-left: 370px;
+  margin-right: 50px;
+}
+#LogoFooter {
+  margin-top: 35px;
+  margin-left: 120px;
+}
+#namadaninfo {
+  margin-top: 35px;
+}
 
 .header,
-.nav,
-.cpyright,
-.navbar {
+.nav {
   font-family: Georama;
+}
+
+.container-main, 
+.principal-section,
+.history-section,
+.peta-section,
+.cpyright {
+  font-family: Khyay;
 }
 
 @media (max-width: 768px) {
