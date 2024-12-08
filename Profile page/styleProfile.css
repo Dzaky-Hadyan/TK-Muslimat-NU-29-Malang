@@ -10,7 +10,7 @@
 
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 }
 .header {
@@ -30,15 +30,15 @@ body {
   background-color: #f0f0f0;
 }
 .TELEPON {
-  color: #D4FBB7;
+  color: #d4fbb7;
   margin-top: 30px;
   margin-right: 150px;
 }
 h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .EMAIL {
-  color: #D4FBB7;
+  color: #d4fbb7;
   margin-top: 30px;
   margin-right: 200px;
 }
@@ -60,7 +60,7 @@ h3 {
 }
 .garisnav {
   padding: 3px;
-  background-color: #81BC55;
+  background-color: #81bc55;
   display: grid;
 }
 .nav {
@@ -76,7 +76,7 @@ h3 {
   font-weight: bold;
 }
 .nav a:hover {
-  color: #81BC55;
+  color: #81bc55;
 }
 
 .gambarTK {
@@ -242,7 +242,7 @@ h3 {
   font-family: Georama;
 }
 
-.container-main, 
+.container-main,
 .principal-section,
 .history-section,
 .peta-section,
