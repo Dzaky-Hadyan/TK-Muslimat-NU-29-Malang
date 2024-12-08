@@ -1,9 +1,20 @@
+@font-face {
+  font-family: Georama;
+  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Khyay;
+  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .header {
+  margin-top: -19px;
   display: flex;
   background-color: rgb(00, 53, 29);
   justify-content: space-evenly;
@@ -13,52 +24,62 @@
   padding-top: 17px;
   padding-bottom: 17px;
 }
-
-.garisnav {
-  padding: 3px;
-  background-color: #81BC55;
-  display: grid;
-}
-
-.logoNU {
-  width: 4%;
-  height: 4%;
-}
-
-.TELEPON {
-  color: #D4FBB7;
-}
-
-h3 {
-  color: white;
-}
-
-.EMAIL {
-  color: #D4FBB7;
-}
-
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #f0f0f0;
 }
-
-.navbar {
-  background-color: #D4FBB7;
+.TELEPON {
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+h3 {
+  color: #ffffff;
+}
+.EMAIL {
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+#tkname {
+  margin-top: 40px;
+  margin-right: 178px;
+}
+#logoTK {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+#selected {
+  color: #4f7942;
+}
+.logoNU {
+  height: 4%;
+  width: 4%;
+}
+.namaTK {
+  margin-top: 200px;
+  margin-right: 130px;
+}
+.garisnav {
+  padding: 3px;
+  background-color: #81bc55;
+  display: grid;
+}
+.nav {
+  background-color: #d4fbb7;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
 }
-
-.navbar a {
-  color: black;
+.nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 95px;
   text-decoration: none;
-  margin: 0 15px;
   font-weight: bold;
 }
-
-.navbar a:hover {
-  color: #81BC55;
+.nav a:hover {
+  color: #81bc55;
 }
 
 .gambarTK {
@@ -194,31 +215,41 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
 .hubungiKami {
   font-size: large;
 }
-
 .info {
   font-size: medium;
 }
-
 .cpyright {
   background-color: #005329;
   padding: 5px 15px;
-  font-size: 1em;
+  font-size: 10px;
   font-weight: bold;
   color: white;
 }
+.infoFooter {
+  margin-left: 370px;
+  margin-right: 50px;
+}
+#LogoFooter {
+  margin-top: 35px;
+  margin-left: 120px;
+}
+#namadaninfo {
+  margin-top: 35px;
+}
 
 .header,
-.nav,
-.cpyright,
-.navbar {
+.nav {
   font-family: Georama;
 }
 
-.info {
+.container-main,
+.principal-section,
+.history-section,
+.peta-section,
+.cpyright {
   font-family: Khyay;
 }
 
@@ -227,14 +258,4 @@ body {
   .facility-item {
     width: 100%;
   }
-}
-
-@font-face {
-  font-family: Georama;
-  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Khyay;
-  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
 }
