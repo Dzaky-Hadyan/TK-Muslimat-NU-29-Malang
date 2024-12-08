@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Georama;
+  src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: Khyay;
+  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  margin-top: -19px;
+  display: flex;
+  background-color: rgb(00, 53, 29);
+  justify-content: space-evenly;
+  font-size: 1em;
+  font-weight: 900;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.TELEPON {
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+h3 {
+  color: #ffffff;
+}
+.EMAIL {
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+#tkname {
+  margin-top: 40px;
+  margin-right: 178px;
+}
+#logoTK {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+#selected {
+  color: #4f7942;
+}
+.logoNU {
+  height: 4%;
+  width: 4%;
+}
+.namaTK {
+  margin-top: 200px;
+  margin-right: 130px;
+}
+.garisnav {
+  padding: 3px;
+  background-color: #81bc55;
+  display: grid;
+}
+.nav {
+  background-color: #d4fbb7;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 95px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav a:hover {
+  color: #81bc55;
+}
+
+.main-section {
+  padding: 40px;
+}
+#clickable {
+  text-decoration: none;
+  color: inherit;
+}
+.teks-informasi {
+  color: #4f7942;
+  margin-bottom: 30px;
+}
+.berita-section {
+  margin-right: 40px;
+  flex-direction: row;
+  display: flex;
+}
+.berita-image {
+  border-radius: 5px;
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+.berita-teks {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.berita-section h3 {
+  font-weight: 200;
+  color: black;
+  margin-bottom: 10px;
+}
+.artikel {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.date {
+  color: #8a9a5b;
+}
+.separator {
+  margin: 0 5px;
+  color: #d0c0f0;
+}
+.garis-hijau {
+  padding: 1px;
+  background-color: #00a86b;
+  display: grid;
+  width: 97%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  background-color: #005329;
+  justify-content: space-evenly;
+  font-size: 1em;
+  padding: 20px;
+  font-weight: 900;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hubungiKami {
+  font-size: large;
+}
+.info {
+  font-size: medium;
+}
+.cpyright {
+  background-color: #005329;
+  padding: 5px 15px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
+.infoFooter {
+  margin-left: 370px;
+  margin-right: 50px;
+}
+#LogoFooter {
+  margin-top: 35px;
+  margin-left: 120px;
+}
+#namadaninfo {
+  margin-top: 35px;
+}
+
+.header,
+.nav {
+  font-family: Georama;
+}
+
+.main-section,
+.cpyright {
+  font-family: Khyay;
+}
+
+@media (max-width: 768px) {
+  .news-item,
+  .facility-item {
+    width: 100%;
+  }
+}
