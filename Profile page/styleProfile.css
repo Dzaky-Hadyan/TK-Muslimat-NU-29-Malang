@@ -50,6 +50,9 @@ h3 {
   margin-top: 10px;
   margin-left: 60px;
 }
+#selected {
+  color: #4f7942;
+}
 .logoNU {
   height: 4%;
   width: 4%;
