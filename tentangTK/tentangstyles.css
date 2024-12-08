@@ -5,6 +5,33 @@
     font-size: 1em;
     font-weight: 900;
     color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: sticky;
+}
+
+.logoNU {
+    width: 4%;
+    height: 4%;
+}
+
+.TELEPON {
+    color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.EMAIL {
+    color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+#tkname {
+    margin-top: 40px;
+    margin-right: 178px;
+}
+#logoTK {
+    margin-top: 10px;
+    margin-left: 60px;
 }
 
 .garisnav {
@@ -18,16 +45,8 @@
     height: 4%;
 }
 
-.TELEPON {
-    color: #D4FBB7;
-}
-
 h3 {
     color: white;
-}
-
-.EMAIL {
-    color: #D4FBB7;
 }
 
 body {
@@ -56,19 +75,23 @@ body {
 
 .content {
     display: flex;
+    justify-content: flex-start;
+}
+
+.limebox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 30%;
 }
 
 .lime-box-top {
     background-color: #81bc55;
     color: white;
-    display:  inline;
     text-align: justify;
-    font-size: 20px;
+    font-size: 17px;
     padding: 20px;
-    padding-right: auto;
-    padding-left: auto;
-    margin-left: 40px;
-    margin-right: 20px;
 }
 
 .lime-box-bottom {
@@ -76,10 +99,6 @@ body {
     color: white;
     height: 600px;
     padding: 20px;
-    margin-left: 40px;
-    margin-right: 20px;
-    width: 41%;
-    margin-bottom: 20px;
 }
 
 .list-tentangTK a {
@@ -97,9 +116,29 @@ body {
     margin-top: 25px;
 }
 
+.content-tentang {
+    margin-right: -782px;
+}
+
 .judul {
     font-size: large;
     font-weight: bold;
+}
+
+.shortcutHome {
+    text-decoration: none;
+    color: black;
+
+}
+
+.shortcutProfil {
+    text-decoration: none;
+    color: #708238;
+}
+
+.isi {
+    font-size: 17px;
+    line-height: 120%;
 }
 
 .footer {
@@ -120,6 +159,23 @@ body {
 
 .info {
     font-size: medium;
+    color: white;
+    line-height: 25px;
+}
+
+#baris-akhir {
+    margin-bottom: 50px;
+}
+.infoFooter {
+    margin-left: 370px;
+    margin-right: 50px;
+}
+#LogoFooter {
+    margin-top: 35px;
+    margin-left: 60px;
+}
+#namadaninfo {
+    margin-top: 35px;
 }
 
 .cpyright {
@@ -128,14 +184,9 @@ body {
     font-size: 1em;
     font-weight: bold;
     color: white;
-}
+    margin-top: 0px;
+    margin-bottom: 0;
 
-@media (max-width: 768px) {
-
-    .news-item,
-    .facility-item {
-        width: 100%;
-    }
 }
 
 @font-face {
@@ -151,15 +202,13 @@ body {
 .namatk,
 .TELEPON,
 .EMAIL,
-.btn,
 .cpyright,
 .navbar {
     font-family: Georama;
 }
 
 .info,
-.news-items,
-.facility-items,
-.judul {
+.judul,
+.content {
     font-family: Khyay;
 }
