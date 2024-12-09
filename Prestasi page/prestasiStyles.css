@@ -41,6 +41,9 @@
     margin-top: 10px;
     margin-left: 60px;
 }
+#achievment {
+    color: #4F7942;
+}
 .navbar {
     background-color: #D4FBB7;
     display: flex;
