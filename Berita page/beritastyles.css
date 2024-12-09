@@ -1,173 +1,176 @@
 @font-face {
-    font-family: Georama;
-    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+  font-family: Georama;
+  src: url(../Assets/Font/Georama-VariableFont_wdth\wght.ttf);
 }
 @font-face {
-    font-family: Khyay;
-    src: url(../Assets/Font/Khyay-Regular.ttf);
+  font-family: Khyay;
+  src: url(../Assets/Font/Khyay-Regular.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .header {
-    margin-top: -19px;
-    display: flex;
-    background-color: rgb(00, 53, 29);
-    justify-content: space-evenly;
-    font-size: 1em;
-    font-weight: 900;
-    color: white;
-    padding-top: 17px;
-    padding-bottom: 17px;
+  margin-top: -19px;
+  display: flex;
+  background-color: rgb(00, 53, 29);
+  justify-content: space-evenly;
+  font-size: 1em;
+  font-weight: 900;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 .TELEPON {
-    color: #D4FBB7;
-    margin-top: 30px;
-    margin-right: 150px;
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 150px;
 }
 .EMAIL {
-    color: #D4FBB7;
-    margin-top: 30px;
-    margin-right: 200px;
+  color: #d4fbb7;
+  margin-top: 30px;
+  margin-right: 200px;
 }
 #tkname {
-    margin-top: 40px;
-    margin-right: 178px;
+  margin-top: 40px;
+  margin-right: 178px;
 }
 #logoTK {
-    margin-top: 10px;
-    margin-left: 60px;
+  margin-top: 10px;
+  margin-left: 60px;
 }
 .navbar {
-    background-color: #D4FBB7;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
+  background-color: #d4fbb7;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
 }
 .navbar a {
-    color: black;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 .navbar a:hover {
-    color: #81BC55;
+  color: #81bc55;
 }
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .main-image {
-    width: 75%;
-    margin-left: 165px;
-    margin-top: 50px;
-    display: inline;
+  width: 75%;
+  margin-left: 165px;
+  margin-top: 50px;
 }
 .green-box {
-    position: absolute;
-    width: fit-content; 
-    bottom: -420px;
-    left: 50px;
-    margin-left: 130px;
-    background-color: #005329;
-    color: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 40px #000000;
-    text-align: center;
-    margin-bottom: 75px;
+  position: absolute;
+  bottom: -420px;
+  left: 50px;
+  margin-left: 130px;
+  background-color: #005329;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px #000000;
+  text-align: center;
+  margin-bottom: 75px;
 }
 .container {
-    position: relative;
+  position: relative;
+}
+.white {
+  background-color: white;
+  height: 60px;
 }
 .artikel {
-    margin-top: 50px;
-    margin-left: 120px;
+  margin-top: 50px;
+  margin-left: 120px;
 }
 .date {
-    color: #8A9A5B;
+  color: #8a9a5b;
 }
 .separator {
-    margin: 0 10px;
-    color: #D0C0F0; 
+  margin: 0 10px;
+  color: #d0c0f0;
 }
 .paragraf {
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 120px;
-    margin-right: 60px;
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 60px;
 }
 .info {
-    color: #ffff;
+  color: #ffff;
 }
 .lower-section {
-    position: relative;
-    background-color: #005329; /* Dark green */
-    height: 200px; /* Adjust the height as needed */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
+  position: relative;
+  background-color: #005329; /* Dark green */
+  height: 200px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
 }
-.header, .navbar {
-    font-family: Georama;
+.header,
+.navbar {
+  font-family: Georama;
 }
-h1, span, p {
-    font-family: Khyay;
+h1,
+span,
+p {
+  font-family: Khyay;
 }
 .garisnav {
-    padding: 3px;
-    background-color: #81BC55;
-    display: grid;
+  padding: 3px;
+  background-color: #81bc55;
+  display: grid;
 }
 .logoNU {
-    width: 4%;
-    height: 4%;
+  width: 4%;
+  height: 4%;
 }
 .footer {
-    display: flex;
-    background-color: #005329;
-    justify-content: space-evenly;
-    font-size: 1em;
-    padding: 20px;
-    font-weight: 900;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  display: flex;
+  background-color: #005329;
+  justify-content: space-evenly;
+  font-size: 1em;
+  padding: 20px;
+  font-weight: 900;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .hubungiKami {
-    font-size: large;
+  font-size: large;
 }
 .info {
-    font-size: medium;
+  font-size: medium;
 }
 
 .cpyright {
-    background-color: #005329;
-    padding: 5px 15px;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
+  background-color: #005329;
+  padding: 5px 15px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
 }
-@media only screen and (min-width:992px) and (max-width:1199px) {
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 #baris-akhir {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .infoFooter {
-    margin-left: 370px;
-    margin-right: 50px;
+  margin-left: 370px;
+  margin-right: 50px;
 }
 #LogoFooter {
-    margin-top: 35px;
-    margin-left: 120px;
+  margin-top: 35px;
+  margin-left: 120px;
 }
 #namadaninfo {
-    margin-top: 35px;
+  margin-top: 35px;
 }
