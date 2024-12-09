@@ -95,20 +95,40 @@ body {
     margin:-5px auto 0; /* Center and space below the text */
     border-radius: 3px; /* Smooth corners for the line */
 }
-.firstpic {
-    display: inline;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 40px; /* Space between cards */
+    padding: 20px;
 }
-.left-pic {
-    width: 32%;
-    height: 32%;
-    margin-left: 70px;
-    margin-top: 50px;
+
+/* Card Styling */
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.right-pic {
-    width: 32%;
-    height: 32%;
-    margin-left: 300px;
-    margin-top: 50px;
+
+/* Image Styling */
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Caption Styling */
+.caption {
+    background-color: #006400; /* Dark green background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .garis-bawah {
     padding: 3px;
