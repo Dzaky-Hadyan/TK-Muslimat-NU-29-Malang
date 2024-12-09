@@ -154,12 +154,8 @@ h1, span, p {
     font-weight: bold;
     color: white;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width:992px) and (max-width:1199px) {
 
-    .news-item,
-    .facility-item {
-        width: 100%;
-    }
 }
 #baris-akhir {
     margin-bottom: 50px;
