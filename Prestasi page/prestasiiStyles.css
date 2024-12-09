@@ -104,6 +104,12 @@ body {
     margin-left: 70px;
     margin-top: 50px;
 }
+.gariscaption {
+    width: 20%;
+    background-color: #81bc55;
+    height: 10px;
+    left: 100px;
+}
 .right-pic {
     width: 32%;
     height: 32%;
