@@ -87,14 +87,6 @@ body {
 .tulisan-prestasi {
     margin-top: 12px;
 }
-.underscore {
-    display: block;
-    width: 60%; /* Adjust width of the line */
-    height: 5px; /* Height of the line */
-    background-color: #81BC55; /* Light green color */
-    margin:-5px auto 0; /* Center and space below the text */
-    border-radius: 3px; /* Smooth corners for the line */
-}
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
@@ -107,6 +99,7 @@ body {
     position: relative;
     background-color: #fff;
     border-radius: 8px;
+    border-bottom-left-radius: 0px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -117,19 +110,6 @@ body {
     width: 100%;
     height: auto;
 }
-
-/* Caption Styling */
-.caption {
-    background-color: #006400; /* Dark green background */
-    color: #fff; /* White text */
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .garis-bawah {
     padding: 3px;
     background-color: #81BC55;
@@ -138,15 +118,7 @@ body {
 .info {
     color: #ffff;
 }
-.lower-section {
-    position: relative;
-    background-color: #005329; /* Dark green */
-    height: 200px; /* Adjust the height as needed */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-}
+
 .header, .navbar {
     font-family: Georama;
 }
@@ -201,7 +173,16 @@ h1, span, p {
 #LogoFooter {
     margin-top: 35px;
     margin-left: 120px;
+    
 }
 #namadaninfo {
     margin-top: 35px;
+}
+.foot {
+    background-color: #005329;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Khyay;
 }
