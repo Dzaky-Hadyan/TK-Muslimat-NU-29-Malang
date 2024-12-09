@@ -124,7 +124,7 @@ body {
 .header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p, .motto {
+h1, span, p, .motto, .infoFooter{
     font-family: Khyay;
 }
 .garisnav {
@@ -174,7 +174,7 @@ h1, span, p, .motto {
 }
 .infoFooter {
     margin-left: 370px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 #LogoFooter {
     margin-top: 35px;
