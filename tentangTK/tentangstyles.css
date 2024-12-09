@@ -75,7 +75,7 @@ body {
 
 .content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: left;
 }
 
 .limebox {
@@ -83,7 +83,8 @@ body {
     margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 20px;
-    width: 30%;
+    width: 28%;
+    min-width: 358px;
 }
 
 .lime-box-top {
@@ -91,14 +92,20 @@ body {
     color: white;
     text-align: justify;
     font-size: 17px;
-    padding: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .lime-box-bottom {
     background-color: #e9fed9;
     color: white;
     height: 600px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .list-tentangTK a {
@@ -116,12 +123,8 @@ body {
     margin-top: 25px;
 }
 
-.content-tentang {
-    margin-right: -782px;
-}
-
 .judul {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 
