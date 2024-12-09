@@ -114,15 +114,7 @@ body {
 .info {
   color: #ffff;
 }
-.lower-section {
-  position: relative;
-  background-color: #005329; /* Dark green */
-  height: 200px; /* Adjust the height as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-}
+
 .header, .navbar, .namatk {
   font-family: Georama;
 }
