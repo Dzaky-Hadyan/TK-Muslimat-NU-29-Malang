@@ -68,6 +68,10 @@ body {
     margin-top: 50px;
     display: inline;
 }
+.white {
+    background-color: white;
+    height: 30px;
+  }
 .green-box {
     position: absolute;
     width: fit-content; 

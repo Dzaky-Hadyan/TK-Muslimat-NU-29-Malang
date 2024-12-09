@@ -82,6 +82,10 @@ body {
     text-align: center;
     margin-bottom: 75px;
 }
+.white {
+    background-color: white;
+    height: 30px;
+  }
 .container {
     position: relative;
 }
