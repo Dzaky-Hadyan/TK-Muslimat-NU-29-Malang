@@ -93,7 +93,14 @@ body {
     gap: 40px; /* Space between cards */
     padding: 20px;
 }
-
+.underscore {
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: #81bc55;
+    margin: -5px auto 0;
+    border-radius: 3px;
+  }
 /* Card Styling */
 .card {
     position: relative;

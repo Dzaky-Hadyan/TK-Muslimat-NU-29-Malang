@@ -82,6 +82,10 @@ body {
     text-align: center;
     margin-bottom: 90px;
 }
+.white {
+    background-color: white;
+    height: 20px;
+  }
 .container {
     position: relative;
 }
@@ -114,10 +118,10 @@ body {
     align-items: center;
     margin-top: 70px;
 }
-.header, .navbar {
+.header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p {
+h1, span, p, .motto, .infoFooter {
     font-family: Khyay;
 }
 .garisnav {
@@ -174,4 +178,7 @@ h1, span, p {
 }
 #namadaninfo {
     margin-top: 35px;
+}
+.footnote {
+    margin-left: 30px;
 }
