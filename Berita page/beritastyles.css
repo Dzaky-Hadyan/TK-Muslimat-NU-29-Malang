@@ -1,6 +1,6 @@
 @font-face {
   font-family: Georama;
-  src: url(../Assets/Font/Georama-VariableFont_wdth\wght.ttf);
+  src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
   font-family: Khyay;
@@ -41,6 +41,9 @@
   margin-top: 10px;
   margin-left: 60px;
 }
+#inform {
+  color: #4F7942;
+}
 .navbar {
   background-color: #d4fbb7;
   display: flex;
@@ -72,12 +75,13 @@ body {
   }
 .green-box {
   position: absolute;
+  width: fit-content; 
   bottom: -420px;
   left: 50px;
   margin-left: 130px;
   background-color: #005329;
   color: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 40px #000000;
   text-align: center;
@@ -88,7 +92,7 @@ body {
 }
 .white {
   background-color: white;
-  height: 60px;
+  height: 20px;
 }
 .artikel {
   margin-top: 50px;
@@ -110,22 +114,11 @@ body {
 .info {
   color: #ffff;
 }
-.lower-section {
-  position: relative;
-  background-color: #005329; /* Dark green */
-  height: 200px; /* Adjust the height as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-}
-.header,
-.navbar {
+
+.header, .navbar, .namatk {
   font-family: Georama;
 }
-h1,
-span,
-p {
+h1, span, p, .motto, .infoFooter{
   font-family: Khyay;
 }
 .garisnav {
@@ -164,12 +157,18 @@ p {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media only screen and (min-width:1200px) {
+}
 #baris-akhir {
   margin-bottom: 50px;
 }
 .infoFooter {
   margin-left: 370px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 #LogoFooter {
   margin-top: 35px;
@@ -177,4 +176,7 @@ p {
 }
 #namadaninfo {
   margin-top: 35px;
+}
+.footnote {
+  margin-left: 30px;
 }

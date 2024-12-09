@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Khyay;
-    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+    src: url(../Assets/Font/Khyay-Regular.ttf);
 }
 
 * {
@@ -40,6 +40,9 @@
 #logoTK {
     margin-top: 10px;
     margin-left: 60px;
+}
+#inform {
+    color: #4F7942;
 }
 .navbar {
     background-color: #D4FBB7;
@@ -118,10 +121,10 @@ body {
     align-items: center;
     margin-top: 70px;
 }
-.header, .navbar {
+.header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p {
+h1, span, p, .motto, .infoFooter{
     font-family: Khyay;
 }
 .garisnav {
@@ -158,19 +161,20 @@ h1, span, p {
     font-weight: bold;
     color: white;
 }
-@media (max-width: 768px) {
-
-    .news-item,
-    .facility-item {
-        width: 100%;
-    }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media only screen and (min-width:1200px) {
 }
 #baris-akhir {
     margin-bottom: 50px;
 }
 .infoFooter {
     margin-left: 370px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 #LogoFooter {
     margin-top: 35px;
@@ -179,3 +183,6 @@ h1, span, p {
 #namadaninfo {
     margin-top: 35px;
 }
+.footnote {
+    margin-left: 30px;
+  }

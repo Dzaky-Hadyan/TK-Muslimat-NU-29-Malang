@@ -103,6 +103,8 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition-duration: 250ms;
+    width: 70%;
+    margin-left: 80px;
 }
 
 .card:hover {
@@ -125,10 +127,10 @@ body {
     color: #ffff;
 }
 
-.header, .navbar {
+.header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p {
+h1, span, p, .motto, .infoFooter {
     font-family: Khyay;
 }
 .garisnav {
@@ -192,3 +194,6 @@ h1, span, p {
     text-align: center;
     font-family: Khyay;
 }
+.footnote {
+    margin-left: 30px;
+  }
