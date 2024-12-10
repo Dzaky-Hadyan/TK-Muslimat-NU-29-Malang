@@ -218,14 +218,20 @@ h3 {
 #namadaninfo {
   margin-top: 35px;
 }
+.footnote {
+  margin-left: 30px;
+}
 
 .header,
-.nav {
+.nav,
+.namatk {
   font-family: Georama;
 }
 
 .garis-kegiatan,
-.cpyright {
+.cpyright,
+.infoFooter,
+.motto {
   font-family: Khyay;
 }
 
