@@ -55,6 +55,7 @@
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    
 }
 .navbar a:hover {
     color: #81BC55;
@@ -65,81 +66,63 @@ body {
     box-sizing: border-box;
 }
 .main-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh; /* Full page height */
-    width: 98.72vw; /* Full page width */
+    width: 75%;
+    margin-left: 165px;
+    margin-top: 50px;
+    display: inline;
+    height: 550px;
 }
-.trophy {
-    width: 30%; /* 30% of the container's width */
-    height: 30%; /* 30% of the container's height */
-    object-fit: contain; /* Ensures the image scales while maintaining aspect ratio */
-}
-.garis-prestasi {
-    margin-top: -19px;
-    display: flex;
-    background-color: rgb(00, 53, 29);
-    justify-content: space-evenly;
-    font-size: 1em;
-    font-weight: 900;
+
+.green-box {
+    position: absolute;
+    width: fit-content; 
+    bottom: -270px;
+    left: 50px;
+    margin-left: 130px;
+    background-color: #005329;
     color: white;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #000000;
+    text-align: center;
+    margin-bottom: 75px;
 }
-.tulisan-prestasi {
-    margin-top: 12px;
-}
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 40px; /* Space between cards */
-    padding: 20px;
-}
-.underscore {
-    display: block;
-    width: 60%;
-    height: 5px;
-    background-color: #81bc55;
-    margin: -5px auto 0;
-    border-radius: 3px;
+.white {
+    background-color: white;
+    height: 20px;
   }
-/* Card Styling */
-.card {
+.container {
     position: relative;
-    background-color: #fff;
-    border-radius: 8px;
-    border-bottom-left-radius: 0px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition-duration: 250ms;
-    width: 70%;
-    margin-left: 80px;
-    height: auto;
 }
-
-.card:hover {
-    transform: scale(1.05);
-    transition-duration: 250ms;
+.artikel {
+    margin-top: 90px;
+    margin-left: 120px;
 }
-
-/* Image Styling */
-.card img {
-    display: block;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.date {
+    color: #8A9A5B;
 }
-
-.garis-bawah {
-    padding: 3px;
-    background-color: #81BC55;
-    display: grid;
+.separator {
+    margin: 0 10px;
+    color: #D0C0F0; 
+}
+.paragraf {
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 60px;
 }
 .info {
     color: #ffff;
 }
-
+.lower-section {
+    position: relative;
+    background-color: #005329; /* Dark green */
+    height: 200px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
 .header, .navbar, .namatk {
     font-family: Georama;
 }
@@ -187,6 +170,9 @@ h1, span, p, .motto, .infoFooter {
         width: 100%;
     }
 }
+#baris-akhir {
+    margin-bottom: 50px;
+}
 .infoFooter {
     margin-left: 370px;
     margin-right: 50px;
@@ -194,19 +180,10 @@ h1, span, p, .motto, .infoFooter {
 #LogoFooter {
     margin-top: 35px;
     margin-left: 120px;
-    
 }
 #namadaninfo {
     margin-top: 35px;
 }
-.foot {
-    background-color: #005329;
-    font-size: 1em;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-family: Khyay;
-}
 .footnote {
     margin-left: 30px;
-  }
+}
