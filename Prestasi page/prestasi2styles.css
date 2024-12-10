@@ -75,23 +75,21 @@ body {
 
 .green-box {
     position: absolute;
-    width: fit-content; 
-    bottom: -270px;
     left: 50px;
     margin-left: 130px;
     background-color: #005329;
     color: white;
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 40px #000000;
     text-align: center;
-    margin-bottom: 75px;
-}
+    bottom: -7px;
+  }
 .white {
     background-color: white;
     height: 20px;
   }
-.container {
+.container-img{
     position: relative;
 }
 .artikel {
@@ -164,26 +162,117 @@ h1, span, p, .motto, .infoFooter {
     color: white;
 }
 @media (max-width: 768px) {
-
-    .news-item,
-    .facility-item {
-        width: 100%;
+    .header {
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%; /* Ensure it spans full width */
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     }
-}
-#baris-akhir {
+    #logoTK {
+      padding-top: 0.3em;
+      height: 5em;
+    }
+    .header img {
+        width: 50px;
+        height: auto;
+    }
+    #tkname, .TELEPON, .EMAIL, .info {
+        margin: 5px 0;
+        font-size: 0.8em;
+        text-align: center; /* Align text */
+    }
+    .navbar {
+        padding: 10px 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar a {
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+    .container-img {
+        position: relative;
+        text-align: center; /* Center-align content */
+    }
+    .main-image {
+        width: 70%; /* Adjust to fill container */
+        height: auto;
+        margin: 0 auto; /* Center the image */
+        padding-top: 1em;
+    }
+    .green-box {
+        position: relative; /* Remove absolute positioning */
+        background-color: #005329;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 20px #000000;
+        text-align: center;
+        font-size: 0.5em; /* Adjust font size */
+        width: 60%;
+        height: 60%;
+        padding: 3em;
+        margin-left: 5em;
+        bottom: 5em;
+    }
+    .white {
+        height: 20px;
+    }
+    .artikel {
+        font-size: 0.9em;
+        margin: 10px auto;
+        width: 90%; /* Adjust to container */
+        text-align: justify;
+    }
+    .paragraf {
+        font-size: 0.9em;
+        margin: 10px auto;
+        width: 90%; /* Adjust to container */
+        text-align: justify;
+    }
+  
+    .footer {
+        display: flex;
+        font-size: 0.8em;
+    }
+    .infoFooter {
+      text-align:justify;
+      margin-left: 2em;
+    }
+    #info-bawah {
+      text-align: left;
+    }
+    .footnote {
+      margin-right: 0.2em;
+      margin-top: -0.6em;
+    }
+    #logoFooter {
+        width: 50px;
+        height: auto;
+    }
+    .infoFooter, .footnote {
+        font-size: 0.8em;
+    }
+    .cpyright {
+        font-size: 0.1em;
+    }
+  }
+  #baris-akhir {
     margin-bottom: 50px;
-}
-.infoFooter {
-    margin-left: 370px;
-    margin-right: 50px;
-}
-#LogoFooter {
-    margin-top: 35px;
-    margin-left: 120px;
-}
-#namadaninfo {
-    margin-top: 35px;
-}
-.footnote {
-    margin-left: 30px;
-}
+  }
+  .infoFooter {
+    margin-right: 20px;
+  }
+  #LogoFooter {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  #namadaninfo {
+    margin-top: 3em;
+  }
+  .footnote {
+    margin-left: 2em;
+    margin-right: 3em;
+  }

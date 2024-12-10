@@ -241,7 +241,8 @@ h1, span, p, .motto, .infoFooter{
       text-align: left;
     }
     .footnote {
-      margin-right: 0.2em;
+    margin-right: 0.2em;
+    margin-top: -0.6em;
     }
     #logoFooter {
         width: 50px;
