@@ -9,7 +9,8 @@
   <script src="script.js"></script>
 </head>
 
-<body>
+<body onmousewheel="fungsi()">
+  <audio src="Assets/wonderhoy-made-with-Voicemod.mp3" id="audio"></audio>
   <div class="header">
     <img src="../Assets/Logo.jpg" class="logoNU" id="logoTK">
     <a class="namatk" id="tkname">TK MUSLIMAT NU 29 MALANG</a>
@@ -25,7 +26,7 @@
     <a href="../index.html">
       HOME
     </a>
-    <a href="/Profile page/profile.html" onclick="fungsi()">
+    <a href="/Profile page/profile.html" id="profil">
       PROFIL
     </a>
     <a href="/Information page/informasi.html">
@@ -86,7 +87,7 @@
       </div>
     </div>
     <br><br>
-    <a class="btn" href="#">
+    <a class="btn" href="/Information page/informasi.html">
       LIHAT SEMUA BERITA
     </a>
   </div>
