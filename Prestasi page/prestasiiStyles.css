@@ -41,6 +41,9 @@
     margin-top: 10px;
     margin-left: 60px;
 }
+#achievment {
+    color: #4F7942;
+}
 .navbar {
     background-color: #D4FBB7;
     display: flex;
@@ -93,7 +96,14 @@ body {
     gap: 40px; /* Space between cards */
     padding: 20px;
 }
-
+.underscore {
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: #81bc55;
+    margin: -5px auto 0;
+    border-radius: 3px;
+  }
 /* Card Styling */
 .card {
     position: relative;
@@ -102,6 +112,14 @@ body {
     border-bottom-left-radius: 0px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition-duration: 250ms;
+    width: 70%;
+    margin-left: 80px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition-duration: 250ms;
 }
 
 /* Image Styling */
@@ -119,10 +137,10 @@ body {
     color: #ffff;
 }
 
-.header, .navbar {
+.header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p {
+h1, span, p, .motto, .infoFooter {
     font-family: Khyay;
 }
 .garisnav {
@@ -186,3 +204,6 @@ h1, span, p {
     text-align: center;
     font-family: Khyay;
 }
+.footnote {
+    margin-left: 30px;
+  }

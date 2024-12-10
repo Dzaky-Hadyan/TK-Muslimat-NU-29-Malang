@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: Khyay;
-  src: url("/Assets/Font/Khyay-Regular.ttf") format("truetype");
+  src: url("../Assets/Font/Khyay-Regular.ttf") format("truetype");
 }
 
 * {
@@ -170,12 +170,15 @@ h3 {
 }
 
 .header,
-.nav {
+.nav,
+.namatk {
   font-family: Georama;
 }
 
 .main-section,
-.cpyright {
+.cpyright,
+.footer,
+.motto {
   font-family: Khyay;
 }
 
@@ -184,4 +187,7 @@ h3 {
   .facility-item {
     width: 100%;
   }
+}
+.footnote {
+  margin-left: 30px;
 }
