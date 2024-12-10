@@ -158,107 +158,95 @@ h1, span, p, .motto, .infoFooter{
       align-items: center;
       padding: 10px;
       display: flex;
-      justify-content: space-evenly;
-      width: 34.6em;
+      justify-content: space-around;
+      width: 100%; /* Ensure it spans full width */
+      flex-wrap: wrap; /* Allow items to wrap on smaller screens */
   }
   #logoTK {
-    margin-right: 0.5em;
-    margin-left: 0.1em;
+    padding-top: 0.3em;
     height: 5em;
-    margin-top: 1em;
   }
   .header img {
-      margin: 10px auto;
       width: 50px;
       height: auto;
   }
-  #tkname, .TELEPON, .EMAIL, .info{
+  #tkname, .TELEPON, .EMAIL, .info {
       margin: 5px 0;
       font-size: 0.8em;
+      text-align: center; /* Align text */
   }
-.garisnav {
-  width: 34.9em;
-}
   .navbar {
       padding: 10px 0;
-      width: 34.6em;
+      width: 100%;
+      justify-content: center;
   }
   .navbar a {
-      margin: 2px 0;
-      font-size: 0.6em;
+      margin: 0 10px;
+      font-size: 0.8em;
   }
   .container-img {
-    position: relative;
+      position: relative;
+      text-align: center; /* Center-align content */
   }
   .main-image {
-      width: 70%;
+      width: 70%; /* Adjust to fill container */
       height: auto;
-      margin-top: 2em;
-      margin-right: 7em;
-      right: 7em;
-      margin-left: 4em;
-
+      margin: 0 auto; /* Center the image */
+      padding-top: 1em;
   }
-
   .green-box {
-    position: absolute;
-    left: 1em;
-    margin-left: 15em;
-    background-color: #005329;
-    color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 40px #000000;
-    text-align: center;
-    bottom: 47px;
-    font-size: 0.3em;
-    justify-content: space-evenly;
+      position: relative; /* Remove absolute positioning */
+      background-color: #005329;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #000000;
+      text-align: center;
+      font-size: 0.5em; /* Adjust font size */
+      width: 60%;
+      height: 60%;
+      padding: 3em;
+      margin-left: 6em;
   }
   .white {
-    background-color: white;
-    height: 3em;
+      height: 20px;
   }
   .artikel {
-      font-size: 0.7em;
-      margin-top: 0.5em;
-      margin-left: 5.5em;
+      font-size: 0.9em;
+      margin: 10px auto;
+      width: 90%; /* Adjust to container */
+      text-align: justify;
   }
   .paragraf {
-      font-size: 0.7em;
-      margin-left: 5.5em;
+      font-size: 0.9em;
+      margin: 10px auto;
+      width: 90%; /* Adjust to container */
+      text-align: justify;
   }
 
   .footer {
-    display: flex;
-    background-color: #005329;
-    font-size: 0.4em;
-    font-weight: 900;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 87em;
-  }
-  #logoFooter {
-    margin-left: 1em;
-    margin-bottom: 2em;
-  }
-  #namadaninfo {
-    padding-top: 12em;
-  }
-  .infoFooter, .footnote {
-      font-size: 0.2em;
-  }
-  .footnote {
-    padding-left: 4em;
-    padding-right: 20em;
+      display: flex;
+      font-size: 0.8em;
   }
   .infoFooter {
-    padding-right: 30em;
-
+    text-align:justify;
+    margin-left: 2em;
+  }
+  #info-bawah {
+    text-align: left;
+  }
+  .footnote {
+    margin-right: 0.2em;
+  }
+  #logoFooter {
+      width: 50px;
+      height: auto;
+      
+  }
+  .infoFooter, .footnote {
+      font-size: 0.8em;
   }
   .cpyright {
       font-size: 0.1em;
-      width: 348em;
   }
 }
 
@@ -270,7 +258,7 @@ h1, span, p, .motto, .infoFooter{
 }
 #LogoFooter {
   margin-top: 2em;
-  margin-left: 8em;
+  margin-left: 3em;
   margin-bottom: 2em;
 }
 #namadaninfo {
@@ -278,5 +266,5 @@ h1, span, p, .motto, .infoFooter{
 }
 .footnote {
   margin-left: 2em;
-  margin-right: 10em;
+  margin-right: 3em;
 }
