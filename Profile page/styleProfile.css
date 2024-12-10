@@ -241,7 +241,8 @@ h3 {
 }
 
 .header,
-.nav {
+.nav,
+.namatk {
   font-family: Georama;
 }
 
@@ -249,7 +250,8 @@ h3 {
 .principal-section,
 .history-section,
 .peta-section,
-.cpyright {
+.cpyright,
+.infoFooter {
   font-family: Khyay;
 }
 
