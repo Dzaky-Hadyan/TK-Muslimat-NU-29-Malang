@@ -25,15 +25,18 @@
     margin-top: 30px;
     margin-right: 150px;
 }
+
 .EMAIL {
     color: #D4FBB7;
     margin-top: 30px;
     margin-right: 200px;
 }
+
 #tkname {
     margin-top: 40px;
     margin-right: 178px;
 }
+
 #logoTK {
     margin-top: 10px;
     margin-left: 60px;
@@ -69,9 +72,7 @@ body {
     color: #81BC55;
 }
 
-#profil:hover {
-    
-}
+#profil:hover {}
 
 .main-image {
     width: 100%;
@@ -233,14 +234,17 @@ body {
 #baris-akhir {
     margin-bottom: 50px;
 }
+
 .infoFooter {
     margin-left: 370px;
     margin-right: 50px;
 }
+
 #LogoFooter {
     margin-top: 35px;
     margin-left: 60px;
 }
+
 #namadaninfo {
     margin-top: 35px;
 }
@@ -254,10 +258,238 @@ body {
 }
 
 @media (max-width: 768px) {
-
-    .news-item,
-    .facility-item {
+    .header {
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
         width: 100%;
+        /* Ensure it spans full width */
+        flex-wrap: wrap;
+        /* Allow items to wrap on smaller screens */
+    }
+
+    #logoTK {
+        padding-top: 0.3em;
+        height: 5em;
+    }
+
+    .header img {
+        width: 50px;
+        height: auto;
+    }
+
+    #tkname,
+    .TELEPON,
+    .EMAIL,
+    .info {
+        margin: 5px 0;
+        font-size: 0.8em;
+        text-align: center;
+        /* Align text */
+    }
+
+    .navbar {
+        padding: 10px 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+
+    .garisnav {
+        padding: 3px;
+        background-color: #81BC55;
+        display: grid;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        background-color: #D4FBB7;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .navbar a:hover {
+        color: #81BC55;
+    }
+
+    .main-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: -3px;
+    }
+
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        margin: 5px 0;
+    }
+
+    .news-section {
+        background-color: #D9D9D9;
+        padding: 100px;
+    }
+
+    .news-section h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news-items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .news-item {
+        width: 51%;
+        margin: 10px 0;
+    }
+
+    #newspict {
+        border-radius: 10px;
+    }
+
+    .news-item a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: left;
+
+    }
+
+    .newsdate {
+        color: #606d38;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .postedby {
+        color: #8A7CA6;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .newsauthor {
+        color: black;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .news-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        background-color: #005923;
+        color: #C5EA91;
+        padding: 20px 30px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 17px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    .facilities {
+        background-color: #ffffff;
+        padding: 50px;
+    }
+
+    #circle {
+        background: url("emu.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
+    .facilities p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .facilities h3 {
+        color: black;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .facility-items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .facility-item {
+        background-color: white;
+        width: 40%;
+        margin: 10px 0;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .facility-item i {
+        font-size: 40px;
+        color: #00796b;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        display: flex;
+        font-size: 0.8em;
+    }
+
+    .infoFooter {
+        text-align: justify;
+        margin-left: 2em;
+    }
+
+    #info-bawah {
+        text-align: left;
+    }
+
+    .footnote {
+        margin-right: 0.2em;
+        margin-top: -0.6em;
+    }
+
+    #logoFooter {
+        width: 50px;
+        height: auto;
+    }
+
+    .infoFooter,
+    .footnote {
+        font-size: 0.8em;
+    }
+
+    .cpyright {
+        font-size: 0.1em;
     }
 }
 
