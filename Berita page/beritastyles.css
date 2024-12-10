@@ -75,8 +75,6 @@ body {
   }
 .green-box {
   position: absolute;
-  width: fit-content; 
-  bottom: -420px;
   left: 50px;
   margin-left: 130px;
   background-color: #005329;
@@ -85,14 +83,14 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 40px #000000;
   text-align: center;
-  margin-bottom: 75px;
+  bottom: 47px;
 }
-.container {
+.container-img {
   position: relative;
 }
 .white {
   background-color: white;
-  height: 20px;
+  height: 60px;
 }
 .artikel {
   margin-top: 50px;
