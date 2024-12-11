@@ -401,8 +401,9 @@ h3 {
   
   .teks-kepsek {
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 30px;
     margin-left: -200px;
+    font-size: large;
   }
   
   .welcome {
@@ -489,10 +490,10 @@ h3 {
   }
   
   .lokasi {
-    width: auto;
+    width: 400px;
     height: 500px;
     margin: 40px;
-    margin-left: 00px;
+    margin-left: -5px;
   }
 
   .footer {
@@ -526,5 +527,9 @@ h3 {
 
   .cpyright {
     font-size: 0.1em;
+  }
+
+  .footnote {
+    margin-left: 30px;
   }
 }
