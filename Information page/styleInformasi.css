@@ -2,6 +2,7 @@
   font-family: Georama;
   src: url("/Assets/Font/Georama-VariableFont_wdth,wght.ttf") format("truetype");
 }
+
 @font-face {
   font-family: Khyay;
   src: url("../Assets/Font/Khyay-Regular.ttf") format("truetype");
@@ -12,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   margin-top: -19px;
   display: flex;
@@ -23,60 +25,73 @@
   padding-top: 17px;
   padding-bottom: 17px;
 }
+
 body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
+
 .TELEPON {
   color: #d4fbb7;
   margin-top: 30px;
   margin-right: 150px;
 }
+
 h3 {
   color: #ffffff;
 }
+
 .EMAIL {
   color: #d4fbb7;
   margin-top: 30px;
   margin-right: 200px;
 }
+
 #tkname {
   margin-top: 40px;
   margin-right: 178px;
 }
+
 #logoTK {
   margin-top: 10px;
   margin-left: 60px;
 }
+
 #selected {
   color: #4f7942;
 }
+
 .logoNU {
   height: 4%;
   width: 4%;
 }
+
 .namaTK {
   margin-top: 200px;
   margin-right: 130px;
 }
+
 .garisnav {
   padding: 3px;
   background-color: #81bc55;
   display: grid;
 }
+
 .nav {
   background-color: #d4fbb7;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
 }
+
 .nav a {
   color: rgb(0, 0, 0);
   margin: 0 95px;
   text-decoration: none;
   font-weight: bold;
 }
+
 .nav a:hover {
   color: #81bc55;
 }
@@ -84,46 +99,56 @@ h3 {
 .main-section {
   padding: 40px;
 }
+
 #clickable {
   text-decoration: none;
   color: inherit;
 }
+
 .teks-informasi {
   color: #4f7942;
   margin-bottom: 30px;
 }
+
 .berita-section {
   margin-right: 40px;
   flex-direction: row;
   display: flex;
 }
+
 .berita-image {
   border-radius: 5px;
   display: flex;
   width: 300px;
   height: 200px;
 }
+
 .berita-teks {
   margin-left: 50px;
   display: flex;
   flex-direction: column;
 }
+
 .berita-section h3 {
   font-weight: 200;
   color: black;
   margin-bottom: 10px;
 }
+
 .artikel {
   font-size: 10px;
   margin-bottom: 10px;
 }
+
 .date {
   color: #8a9a5b;
 }
+
 .separator {
   margin: 0 5px;
   color: #d0c0f0;
 }
+
 .garis-hijau {
   padding: 1px;
   background-color: #00a86b;
@@ -144,12 +169,15 @@ h3 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .hubungiKami {
   font-size: large;
 }
+
 .info {
   font-size: medium;
 }
+
 .cpyright {
   background-color: #005329;
   padding: 5px 15px;
@@ -157,14 +185,17 @@ h3 {
   font-weight: bold;
   color: white;
 }
+
 .infoFooter {
   margin-left: 370px;
   margin-right: 50px;
 }
+
 #LogoFooter {
   margin-top: 35px;
   margin-left: 120px;
 }
+
 #namadaninfo {
   margin-top: 35px;
 }
@@ -183,11 +214,157 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .news-item,
-  .facility-item {
+  .header {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
+    /* Ensure it spans full width */
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+  }
+
+  #logoTK {
+    padding-top: 0.3em;
+    height: 5em;
+  }
+
+  .header img {
+    width: 50px;
+    height: auto;
+  }
+
+  #tkname,
+  .TELEPON,
+  .EMAIL,
+  .info {
+    margin: 5px 0;
+    font-size: 0.8em;
+    text-align: center;
+    /* Align text */
+  }
+
+  .nav {
+    padding: 10px 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav a {
+    margin: 0 10px;
+    font-size: 0.8em;
+  }
+
+  .garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav {
+    background-color: #D4FBB7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .nav a:hover {
+    color: #81BC55;
+  }
+
+  .berita-section {
+    margin-right: 40px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .berita-image {
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    height: 200px;
+  }
+
+  .berita-teks {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .berita-section h3 {
+    font-weight: 200;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .artikel {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .date {
+    color: #8a9a5b;
+  }
+
+  .separator {
+    margin: 0 5px;
+    color: #d0c0f0;
+  }
+
+  .garis-hijau {
+    padding: 1px;
+    background-color: #00a86b;
+    display: grid;
+    width: 97%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    display: flex;
+    font-size: 0.8em;
+  }
+
+  .infoFooter {
+    text-align: justify;
+    margin-left: 2em;
+  }
+
+  #info-bawah {
+    text-align: left;
+  }
+
+  .footnote {
+    margin-right: 0.2em;
+    margin-top: -0.6em;
+  }
+
+  #logoFooter {
+    width: 50px;
+    height: auto;
+  }
+
+  .infoFooter,
+  .footnote {
+    font-size: 0.8em;
+  }
+
+  .cpyright {
+    font-size: 0.1em;
+  }
+
+  .footnote {
+    margin-left: 30px;
   }
 }
+
 .footnote {
   margin-left: 30px;
 }

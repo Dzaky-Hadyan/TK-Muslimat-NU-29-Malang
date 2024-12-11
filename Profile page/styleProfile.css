@@ -336,11 +336,13 @@ h3 {
   .nav {
     padding: 10px 0;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    background-color: #D4FBB7;
+    display: flex;
   }
 
   .nav a {
-    margin: 0 10px;
+    margin: 0 40px;
     font-size: 0.8em;
   }
 
@@ -348,19 +350,6 @@ h3 {
     padding: 3px;
     background-color: #81BC55;
     display: grid;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .nav {
-    background-color: #D4FBB7;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
   }
 
   .nav a:hover {
