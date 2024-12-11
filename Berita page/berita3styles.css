@@ -81,7 +81,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 40px #000000;
     text-align: center;
-    bottom: 47px;
+    bottom: 20px;
   }
 .white {
     background-color: white;
@@ -211,7 +211,7 @@ h1, span, p, .motto, .infoFooter{
         width: 60%;
         height: 60%;
         padding: 3em;
-        margin-left: 6em;
+        margin-left: 1.8em;
     }
     .white {
         height: 20px;

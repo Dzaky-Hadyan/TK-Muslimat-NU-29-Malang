@@ -213,7 +213,8 @@ h1, span, p, .motto, .infoFooter {
         width: 60%;
         height: 60%;
         padding: 3em;
-        margin-left: 6em;
+        margin-left: 1.8em;
+        bottom: 8em;
     }
     .white {
         height: 20px;
