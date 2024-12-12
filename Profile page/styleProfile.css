@@ -533,3 +533,21 @@ h3 {
     margin-left: 30px;
   }
 }
+#baris-akhir {
+  margin-bottom: 50px;
+}
+.infoFooter {
+  margin-right: 20px;
+}
+#LogoFooter {
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+#namadaninfo {
+  margin-top: 3em;
+}
+.footnote {
+  margin-left: 2em;
+  margin-right: 3em;
+}
