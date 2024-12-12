@@ -20,15 +20,18 @@
     margin-top: 30px;
     margin-right: 150px;
 }
+
 .EMAIL {
     color: #D4FBB7;
     margin-top: 30px;
     margin-right: 200px;
 }
+
 #tkname {
     margin-top: 40px;
     margin-right: 178px;
 }
+
 #logoTK {
     margin-top: 10px;
     margin-left: 60px;
@@ -139,14 +142,18 @@ body {
     color: #708238;
 }
 
+.gambar-kepsek {
+    width: 270px;
+}
+
 .isi {
-    line-height: 150%;
     display: flex;
     flex-direction: row;
 }
 
-.content-tentang {
-    
+.teks-isi {
+    line-height: 150%;
+    font-size: small
 }
 
 .footer {
@@ -174,14 +181,17 @@ body {
 #baris-akhir {
     margin-bottom: 50px;
 }
+
 .infoFooter {
     margin-left: 370px;
     margin-right: 50px;
 }
+
 #LogoFooter {
     margin-top: 35px;
     margin-left: 60px;
 }
+
 #namadaninfo {
     margin-top: 35px;
 }
@@ -217,62 +227,226 @@ body {
 
 .info,
 .judul,
-.content {
+.content,
+.teks-isi {
     font-family: Khyay;
 }
-.profile-card {
-    background-color: #004d26; /* Dark green */
-    color: white;
-    width: 675px;
-    margin-top: 10px;
-    padding: 11px;
-    padding-bottom: 50px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.profile-card2 {
-    background-color: #004d26; /* Dark green */
-    color: white;
-    width: 675px;
-    margin-top: 50px;
-    padding: 11px;
-    padding-bottom: 50px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.text-section {
-    flex: 1;
-    padding-right: 20px;
-    margin-left: 128px;
-}
-.text-section h2 {
-    margin-bottom: 10px;
-    font-size: 24px;
-    
-}
-.text-section p {
-    line-height: 0.5;
-}
-.text-section span {
-    font-weight: bold;
-}
-.image-section {
-    flex-shrink: 0;
-}
-.image-section img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px; /* Optional: makes the image look smoother */
-}
-.garis-kepsek {
-    background-color: #00A86B;
-    width: 42%;
-    height: 1px;
-    border: none;
-    text-align: left;
-    margin-left: 0px;
+
+
+
+@media (max-width: 768px) {
+    .header {
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        /* Ensure it spans full width */
+        flex-wrap: wrap;
+        /* Allow items to wrap on smaller screens */
+    }
+
+    #logoTK {
+        padding-top: 0.3em;
+        height: 5em;
+    }
+
+    .header img {
+        width: 50px;
+        height: auto;
+    }
+
+    #tkname,
+    .TELEPON,
+    .EMAIL,
+    .info {
+        margin: 5px 0;
+        font-size: 0.8em;
+        text-align: center;
+        /* Align text */
+    }
+
+    .navbar {
+        padding: 10px 0;
+        width: 104%;
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+
+    .garisnav {
+        padding: 3px;
+        background-color: #81BC55;
+        display: grid;
+        width: 103%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        background-color: #D4FBB7;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .navbar a:hover {
+        color: #81BC55;
+    }
+
+    .content {
+        display: flex;
+        justify-content: left;
+    }
+
+    .limebox {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 20px;
+        width: 8%;
+        min-width: 8em;
+    }
+
+    .lime-box-top {
+        background-color: #81bc55;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .lime-box-bottom {
+        background-color: #e9fed9;
+        color: white;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .list-tentangTK a {
+        font-size: 10px;
+        color: #4f7942;
+        text-decoration: none;
+    }
+
+    .list-tentangTK hr {
+        border: none;
+        border: none;
+        height: 2px;
+        background-color: #81bc55;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .judul {
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .shortcutHome {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .shortcutProfil {
+        text-decoration: none;
+        color: #708238;
+    }
+
+    .gambar-kepsek {
+        max-width: 100px;
+        max-height: min-content;
+    }
+
+    .isi {
+        line-height: 150%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .teks-isi {
+        font-size: x-small;
+    }
+
+    .garis-hijau {
+        padding: 1px;
+        background-color: #00a86b;
+        display: grid;
+        width: 97%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        display: flex;
+        font-size: 0.8em;
+    }
+
+    .infoFooter {
+        text-align: justify;
+        margin-left: 2em;
+    }
+
+    #info-bawah {
+        text-align: left;
+    }
+
+    .footnote {
+        margin-right: 0.2em;
+        margin-top: -0.6em;
+    }
+
+    #logoFooter {
+        width: 50px;
+        height: auto;
+    }
+
+    .infoFooter,
+    .footnote {
+        font-size: 0.8em;
+    }
+
+    .cpyright {
+        font-size: 0.1em;
+    }
+
+    .footnote {
+        margin-left: 30px;
+    }
+
+    @font-face {
+        font-family: Georama;
+        src: url(Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+    }
+
+    @font-face {
+        font-family: Khyay;
+        src: url(Assets/Font/Myanmar\ Khyay\ Font.zip);
+    }
+
+    .namatk,
+    .TELEPON,
+    .EMAIL,
+    .cpyright,
+    .navbar {
+        font-family: Georama;
+    }
+
+    .info,
+    .judul,
+    .content,
+    .teks-isi {
+        font-family: Khyay;
+    }
 }
