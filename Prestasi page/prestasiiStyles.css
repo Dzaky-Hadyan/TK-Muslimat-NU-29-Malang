@@ -181,24 +181,83 @@ h1, span, p, .motto, .infoFooter {
     color: white;
 }
 @media (max-width: 768px) {
-
-    .news-item,
-    .facility-item {
+    .header {
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%; /* Ensure it spans full width */
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    }
+    #logoTK {
+      padding-top: 0.3em;
+      height: 5em;
+    }
+    .header img {
+        width: 50px;
+        height: auto;
+    }
+    #tkname, .TELEPON, .EMAIL, .info {
+        margin: 5px 0;
+        font-size: 0.8em;
+        text-align: center; /* Align text */
+    }
+    .navbar {
+        padding: 10px 0;
         width: 100%;
+        justify-content: center;
+    }
+    .navbar a {
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+
+    .trophy {
+        width: 60%; /* Adjusted to fit smaller screens */
+    }
+    .main-image {
+        width: 166.7%;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%; /* Reduce card width for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        display: flex;
+        font-size: 0.8em;
+    }
+    .infoFooter {
+      text-align:justify;
+      margin-left: 2em;
+    }
+    #info-bawah {
+      text-align: left;
+    }
+    .footnote {
+    margin-right: 0.2em;
+    margin-top: -0.6em;
+    }
+    #logoFooter {
+        width: 50px;
+        height: auto;
+        
+    }
+    .infoFooter, .footnote {
+        font-size: 0.8em;
+    }
+    .cpyright {
+        font-size: 0.1em;
     }
 }
-.infoFooter {
-    margin-left: 370px;
-    margin-right: 50px;
-}
-#LogoFooter {
-    margin-top: 35px;
-    margin-left: 120px;
-    
-}
-#namadaninfo {
-    margin-top: 35px;
-}
+
 .foot {
     background-color: #005329;
     font-size: 1em;
@@ -207,6 +266,18 @@ h1, span, p, .motto, .infoFooter {
     text-align: center;
     font-family: Khyay;
 }
-.footnote {
-    margin-left: 30px;
+  .infoFooter {
+    margin-right: 20px;
+  }
+  #LogoFooter {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  #namadaninfo {
+    margin-top: 3em;
+  }
+  .footnote {
+    margin-left: 2em;
+    margin-right: 3em;
   }

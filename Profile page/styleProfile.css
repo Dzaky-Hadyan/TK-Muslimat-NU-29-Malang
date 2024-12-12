@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   margin-top: -19px;
   display: flex;
@@ -24,60 +25,74 @@
   padding-top: 17px;
   padding-bottom: 17px;
 }
+
 body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
+
 .TELEPON {
   color: #d4fbb7;
   margin-top: 30px;
   margin-right: 150px;
 }
+
 h3 {
   color: #ffffff;
 }
+
 .EMAIL {
   color: #d4fbb7;
   margin-top: 30px;
   margin-right: 200px;
 }
+
 #tkname {
   margin-top: 40px;
   margin-right: 178px;
 }
+
 #logoTK {
   margin-top: 10px;
   margin-left: 60px;
 }
+
 #selected {
   color: #4f7942;
 }
+
 .logoNU {
   height: 4%;
   width: 4%;
 }
+
 .namaTK {
   margin-top: 200px;
   margin-right: 130px;
 }
+
 .garisnav {
   padding: 3px;
   background-color: #81bc55;
   display: grid;
 }
+
 .nav {
   background-color: #d4fbb7;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
 }
+
 .nav a {
   color: rgb(0, 0, 0);
   margin: 0 95px;
   text-decoration: none;
   font-weight: bold;
+  width: 0;
 }
+
 .nav a:hover {
   color: #81bc55;
 }
@@ -85,9 +100,11 @@ h3 {
 .gambarTK {
   width: 100%;
 }
+
 .container-main {
   position: relative;
 }
+
 .green-box {
   position: absolute;
   height: 240px;
@@ -100,10 +117,12 @@ h3 {
   border-radius: 10px;
   box-shadow: 0 0 30px #000000;
 }
+
 .white {
   background-color: white;
   height: 60px;
 }
+
 .garis-about {
   border: none;
   height: 2px;
@@ -118,18 +137,22 @@ h3 {
   display: flex;
   margin-bottom: 50px;
 }
+
 .foto-kepsek {
   height: 550px;
   width: 550px;
   margin-right: 100px;
 }
+
 .teks-kepsek {
   margin-top: 100px;
   margin-right: 100px;
 }
+
 .welcome {
   color: #8a9a5b;
 }
+
 .garis-kepsek {
   border: none;
   height: 2px;
@@ -142,28 +165,35 @@ h3 {
   margin-left: 40px;
   margin-right: 20px;
 }
+
 .sejarahTK {
   color: #4f7942;
 }
+
 .container-history {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+
 .sejarah-kiri {
   width: 59%;
   margin-right: 20px;
 }
+
 .hallwayTK {
   width: 100%;
 }
+
 .sejarah-kanan {
   width: 41%;
 }
+
 .teks-sejarah {
   margin-top: 20px;
   color: #2f4f4f;
 }
+
 .lime-box-top {
   background-color: #81bc55;
   color: white;
@@ -171,17 +201,20 @@ h3 {
   font-size: 20px;
   padding: 20px;
 }
+
 .lime-box-bottom {
   background-color: #e9fed9;
   color: white;
   height: 600px;
   padding: 40px;
 }
+
 .list-tentangTK a {
   font-size: 20px;
   color: #4f7942;
   text-decoration: none;
 }
+
 .list-tentangTK hr {
   border: none;
   border: none;
@@ -194,9 +227,11 @@ h3 {
 .peta-section {
   margin: 40px;
 }
+
 .petaTK {
   color: #4f7942;
 }
+
 .lokasi {
   width: 80%;
   height: 500px;
@@ -215,12 +250,15 @@ h3 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .hubungiKami {
   font-size: large;
 }
+
 .info {
   font-size: medium;
 }
+
 .cpyright {
   background-color: #005329;
   padding: 5px 15px;
@@ -228,17 +266,21 @@ h3 {
   font-weight: bold;
   color: white;
 }
+
 .infoFooter {
   margin-left: 370px;
   margin-right: 50px;
 }
+
 #LogoFooter {
   margin-top: 35px;
   margin-left: 120px;
 }
+
 #namadaninfo {
   margin-top: 35px;
 }
+
 .footnote {
   margin-left: 30px;
 }
@@ -260,8 +302,252 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .news-item,
-  .facility-item {
+  .header {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* Ensure it spans full width */
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+  }
+
+  #logoTK {
+    padding-top: 0.3em;
+    height: 5em;
+  }
+
+  .header img {
+    width: 50px;
+    height: auto;
+  }
+
+  #tkname,
+  .TELEPON,
+  .EMAIL,
+  .info {
+    margin: 5px 0;
+    font-size: 0.8em;
+    text-align: center;
+    /* Align text */
+  }
+
+  .nav {
+    padding: 10px 0;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: #D4FBB7;
+    display: flex;
+  }
+
+  .nav a {
+    margin: 0 40px;
+    font-size: 0.8em;
+  }
+
+  .garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
+  }
+
+  .nav a:hover {
+    color: #81BC55;
+  }
+
+  .container-main {
+    position: relative;
+  }
+  
+  .green-box {
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 30px;
+    left: 50px;
+    background-color: #005329;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000000;
+  }
+  
+  .white {
+    background-color: white;
+    height: 300px;
+  }
+  
+  .garis-about {
+    border: none;
+    height: 2px;
+    background-color: #00a86b;
+    width: 70%;
+  }
+  
+  .principal-section {
+    background-color: #005329;
+    color: white;
+    padding-left: 0px;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .foto-kepsek {
+    height: 550px;
+    width: auto;
+    margin-left: -170px;
+  }
+  
+  .teks-kepsek {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: -200px;
+    font-size: large;
+  }
+  
+  .welcome {
+    color: #8a9a5b;
+  }
+  
+  .garis-kepsek {
+    border: none;
+    height: 2px;
+    background-color: #00a86b;
+    margin-top: 10px;
+    width: auto;
+  }
+  
+  .history-section {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  
+  .sejarahTK {
+    color: #4f7942;
+  }
+  
+  .container-history {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sejarah-kiri {
+    width: 59%;
+    margin-right: 20px;
+  }
+  
+  .hallwayTK {
     width: 100%;
   }
+  
+  .sejarah-kanan {
+    width: 41%;
+  }
+  
+  .teks-sejarah {
+    margin-top: 20px;
+    color: #2f4f4f;
+  }
+  
+  .lime-box-top {
+    background-color: #81bc55;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+  }
+  
+  .lime-box-bottom {
+    background-color: #e9fed9;
+    color: white;
+    height: 600px;
+    padding: 12px;
+  }
+  
+  .list-tentangTK a {
+    font-size: 9px;
+    color: #4f7942;
+    text-decoration: none;
+  }
+  
+  .list-tentangTK hr {
+    border: none;
+    border: none;
+    height: 2px;
+    background-color: #81bc55;
+    width: auto;
+    margin-top: 25px;
+  }
+  
+  .peta-section {
+    margin: 40px;
+  }
+  
+  .petaTK {
+    color: #4f7942;
+  }
+  
+  .lokasi {
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    margin-left: -5px;
+  }
+
+  .footer {
+    display: flex;
+    font-size: 0.8em;
+  }
+
+  .infoFooter {
+    text-align: justify;
+    margin-left: 2em;
+  }
+
+  #info-bawah {
+    text-align: left;
+  }
+
+  .footnote {
+    margin-right: 0.2em;
+    margin-top: -0.6em;
+  }
+
+  #logoFooter {
+    width: 50px;
+    height: auto;
+  }
+
+  .infoFooter,
+  .footnote {
+    font-size: 0.8em;
+  }
+
+  .cpyright {
+    font-size: 0.1em;
+  }
+
+  .footnote {
+    margin-left: 30px;
+  }
+}
+#baris-akhir {
+  margin-bottom: 50px;
+}
+.infoFooter {
+  margin-right: 20px;
+}
+#LogoFooter {
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+#namadaninfo {
+  margin-top: 3em;
+}
+.footnote {
+  margin-left: 2em;
+  margin-right: 3em;
 }

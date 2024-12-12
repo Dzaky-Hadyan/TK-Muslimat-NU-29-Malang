@@ -208,18 +208,19 @@ h3 {
   color: white;
 }
 .infoFooter {
-  margin-left: 370px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 #LogoFooter {
-  margin-top: 35px;
-  margin-left: 120px;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
 }
 #namadaninfo {
-  margin-top: 35px;
+  margin-top: 3em;
 }
 .footnote {
-  margin-left: 30px;
+  margin-left: 2em;
+  margin-right: 3em;
 }
 
 .header,
@@ -236,8 +237,102 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .news-item,
-  .facility-item {
+  /* Header adjustments */
+  .header {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Ensure it spans full width */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+#logoTK {
+  padding-top: 0.3em;
+  height: 5em;
+}
+.header img {
+    width: 50px;
+    height: auto;
+}
+#tkname, .TELEPON, .EMAIL, .info {
+    margin: 5px 0;
+    font-size: 0.8em;
+    text-align: center; /* Align text */
+}
+.navbar {
+    padding: 10px 0;
     width: 100%;
+    justify-content: center;
+}
+.navbar a {
+    margin: 0 10px;
+    font-size: 0.8em;
+}
+.hallway {
+  width: 100%; /* Adjusted to fit smaller screens */
+  
+}
+.main-image {
+  width: 100%;
+}
+  /* Gallery adjustments */
+  .gallery {
+    flex-direction: row;
+    align-items: center;
+  }
+  .gallery-item {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  .caption-top, .caption-bottom {
+    width: 55%;
+  }
+  /* Footer adjustments */
+  .footer {
+    display: flex;
+    font-size: 0.8em;
+}
+.infoFooter {
+  text-align:justify;
+  margin-left: 2em;
+}
+#info-bawah {
+  text-align: left;
+}
+.footnote {
+margin-right: 0.2em;
+margin-top: -0.6em;
+}
+#logoFooter {
+    width: 50px;
+    height: auto;
+    
+}
+.infoFooter, .footnote {
+    font-size: 0.8em;
+}
+.cpyright {
+    font-size: 0.1em;
+}
+}
+
+@media (max-width: 480px) {
+  /* Additional adjustments for very small screens */
+  .header {
+    font-size: 0.9em;
+  }
+  .nav a {
+    font-size: 12px;
+    margin: 3px 10px;
+  }
+  .footer {
+    font-size: 0.9em;
+  }
+  .gallery-item h3 {
+    font-size: 14px;
   }
 }
