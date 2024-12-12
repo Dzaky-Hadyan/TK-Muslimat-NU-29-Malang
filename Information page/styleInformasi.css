@@ -87,7 +87,7 @@ h3 {
 
 .nav a {
   color: rgb(0, 0, 0);
-  margin: 0 95px;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -186,20 +186,6 @@ h3 {
   color: white;
 }
 
-.infoFooter {
-  margin-left: 370px;
-  margin-right: 50px;
-}
-
-#LogoFooter {
-  margin-top: 35px;
-  margin-left: 120px;
-}
-
-#namadaninfo {
-  margin-top: 35px;
-}
-
 .header,
 .nav,
 .namatk {
@@ -258,7 +244,7 @@ h3 {
 
   .garisnav {
     padding: 3px;
-    background-color: #81BC55;
+    background-color: #81bc55;
     display: grid;
   }
 
@@ -269,14 +255,14 @@ h3 {
   }
 
   .nav {
-    background-color: #D4FBB7;
+    background-color: #d4fbb7;
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
   }
 
   .nav a:hover {
-    color: #81BC55;
+    color: #81bc55;
   }
 
   .berita-section {
