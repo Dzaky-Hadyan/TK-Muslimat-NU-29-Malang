@@ -74,7 +74,7 @@ h3 {
 }
 .nav a {
   color: rgb(0, 0, 0);
-  margin: 0 95px;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -245,36 +245,37 @@ h3 {
     justify-content: space-around;
     width: 100%; /* Ensure it spans full width */
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-}
-#logoTK {
-  padding-top: 0.3em;
-  height: 5em;
-}
-.header img {
+  }
+  #logoTK {
+    padding-top: 0.3em;
+    height: 5em;
+  }
+  .header img {
     width: 50px;
     height: auto;
-}
-#tkname, .TELEPON, .EMAIL, .info {
+  }
+  #tkname,
+  .TELEPON,
+  .EMAIL,
+  .info {
     margin: 5px 0;
     font-size: 0.8em;
     text-align: center; /* Align text */
-}
-.navbar {
+  }
+  .nav {
     padding: 10px 0;
     width: 100%;
     justify-content: center;
-}
-.navbar a {
+  }
+  .nav a {
     margin: 0 10px;
     font-size: 0.8em;
-}
-.hallway {
-  width: 100%; /* Adjusted to fit smaller screens */
-  
-}
-.main-image {
-  width: 100%;
-}
+  }
+
+  .hallway {
+    width: 100%; /* Adjusted to fit smaller screens */
+  }
+
   /* Gallery adjustments */
   .gallery {
     flex-direction: row;
@@ -288,36 +289,37 @@ h3 {
     width: 100%;
     height: auto;
   }
-  .caption-top, .caption-bottom {
+  .caption-top,
+  .caption-bottom {
     width: 55%;
   }
   /* Footer adjustments */
   .footer {
     display: flex;
     font-size: 0.8em;
-}
-.infoFooter {
-  text-align:justify;
-  margin-left: 2em;
-}
-#info-bawah {
-  text-align: left;
-}
-.footnote {
-margin-right: 0.2em;
-margin-top: -0.6em;
-}
-#logoFooter {
+  }
+  .infoFooter {
+    text-align: justify;
+    margin-left: 2em;
+  }
+  #info-bawah {
+    text-align: left;
+  }
+  .footnote {
+    margin-right: 0.2em;
+    margin-top: -0.6em;
+  }
+  #logoFooter {
     width: 50px;
     height: auto;
-    
-}
-.infoFooter, .footnote {
+  }
+  .infoFooter,
+  .footnote {
     font-size: 0.8em;
-}
-.cpyright {
+  }
+  .cpyright {
     font-size: 0.1em;
-}
+  }
 }
 
 @media (max-width: 480px) {
