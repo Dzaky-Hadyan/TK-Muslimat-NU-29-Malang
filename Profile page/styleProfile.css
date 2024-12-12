@@ -138,14 +138,16 @@ h3 {
 }
 
 .foto-kepsek {
-  height: 550px;
-  width: 550px;
+  height: 100%;
+  width: 100%;
+  align-self: center;
   margin-right: 100px;
 }
 
 .teks-kepsek {
   margin-top: 100px;
   margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 .welcome {
@@ -267,21 +269,19 @@ h3 {
 }
 
 .infoFooter {
-  margin-left: 370px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
-
 #LogoFooter {
-  margin-top: 35px;
-  margin-left: 120px;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
 }
-
 #namadaninfo {
-  margin-top: 35px;
+  margin-top: 3em;
 }
-
 .footnote {
-  margin-left: 30px;
+  margin-left: 2em;
+  margin-right: 3em;
 }
 
 .header,
@@ -345,18 +345,18 @@ h3 {
 
   .garisnav {
     padding: 3px;
-    background-color: #81BC55;
+    background-color: #81bc55;
     display: grid;
   }
 
   .nav a:hover {
-    color: #81BC55;
+    color: #81bc55;
   }
 
   .container-main {
     position: relative;
   }
-  
+
   .green-box {
     position: relative; /* Remove absolute positioning */
     background-color: #005329;
@@ -371,12 +371,12 @@ h3 {
     bottom: 5em;
     margin-left: -5em;
   }
-  
+
   .white {
     background-color: white;
     height: 50px;
   }
-  
+
   .garis-about {
     border: none;
     height: 2px;
@@ -384,7 +384,7 @@ h3 {
     width: 70%;
     justify-self: center;
   }
-  
+
   .principal-section {
     background-color: #005329;
     color: white;
@@ -392,24 +392,24 @@ h3 {
     display: flex;
     margin-bottom: 50px;
   }
-  
+
   .foto-kepsek {
     height: 40%;
     width: auto;
     margin-left: -7em;
   }
-  
+
   .teks-kepsek {
     margin-top: 20px;
     margin-right: 30px;
     margin-left: -25em;
     font-size: 0.5em;
   }
-  
+
   .welcome {
     color: #8a9a5b;
   }
-  
+
   .garis-kepsek {
     border: none;
     height: 2px;
@@ -417,40 +417,40 @@ h3 {
     margin-top: 10px;
     width: auto;
   }
-  
+
   .history-section {
     margin-left: 40px;
     margin-right: 20px;
   }
-  
+
   .sejarahTK {
     color: #4f7942;
   }
-  
+
   .container-history {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
   }
-  
+
   .sejarah-kiri {
     width: 59%;
     margin-right: 20px;
   }
-  
+
   .hallwayTK {
     width: 100%;
   }
-  
+
   .sejarah-kanan {
     width: 41%;
   }
-  
+
   .teks-sejarah {
     margin-top: 20px;
     color: #2f4f4f;
   }
-  
+
   .lime-box-top {
     background-color: #81bc55;
     color: white;
@@ -458,20 +458,20 @@ h3 {
     font-size: 10px;
     padding: 10px;
   }
-  
+
   .lime-box-bottom {
     background-color: #e9fed9;
     color: white;
     height: 600px;
     padding: 12px;
   }
-  
+
   .list-tentangTK a {
     font-size: 9px;
     color: #4f7942;
     text-decoration: none;
   }
-  
+
   .list-tentangTK hr {
     border: none;
     border: none;
@@ -480,15 +480,15 @@ h3 {
     width: auto;
     margin-top: 25px;
   }
-  
+
   .peta-section {
     margin: 40px;
   }
-  
+
   .petaTK {
     color: #4f7942;
   }
-  
+
   .lokasi {
     width: 100%;
     height: auto;
