@@ -89,6 +89,10 @@ body {
 .content {
     display: flex;
     justify-content: left;
+    margin-right: 0;
+}
+.content-tentang {
+    margin-right: 0;
 }
 
 .limebox {
@@ -364,23 +368,18 @@ body {
         color: #708238;
     }
 
-    .gambar-kepsek {
-        max-width: 100px;
-        max-height: min-content;
-    }
-
     .isi {
         line-height: 150%;  
         font-size: 0.68em;
     }
 
     #gambar-struktur {
-        width: 300px;
+        width: 96%;
     }
 
     #gambar-peserta {
-        width: 16em;
-        height: 7em;
+        width: 100%;
+        height: auto;
     }
 
     .teks-isi {
@@ -399,7 +398,7 @@ body {
     .profile-card {
         background-color: #004d26; /* Dark green */
         color: white;
-        max-width: 375px;
+        max-width: 50%;
         margin-top: 10px;
         padding: 11px;
         padding-bottom: 50px;
@@ -410,7 +409,7 @@ body {
     .profile-card2 {
         background-color: #004d26; /* Dark green */
         color: white;
-        max-width: 375px;
+        max-width: 50%;
         margin-top: 25px;
         margin-bottom: 25px;
         padding: 11px;
@@ -433,7 +432,7 @@ body {
         line-height: 2;
     }
     .text-section span {
-        font-size: small;
+        font-size: smaller;
         font-weight: bold;
     }
     .image-section {
