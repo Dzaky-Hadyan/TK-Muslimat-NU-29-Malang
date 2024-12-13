@@ -447,7 +447,7 @@ body {
 
     .facility-item {
         background-color: white;
-        width: 40%;
+        width: auto;
         margin: 10px 0;
         text-align: left;
         padding: 20px;

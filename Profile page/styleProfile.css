@@ -335,7 +335,7 @@ h3 {
   .nav {
     padding: 10px 0;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .nav a {

@@ -257,7 +257,7 @@ h3 {
   .nav {
     background-color: #d4fbb7;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px 0;
   }
 
