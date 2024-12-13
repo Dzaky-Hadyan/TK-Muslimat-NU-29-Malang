@@ -371,7 +371,7 @@ body {
     }
 
     #gambar-struktur {
-        width: 290px;
+        width: 300px;
     }
 
     #gambar-peserta {
@@ -389,6 +389,63 @@ body {
         width: 97%;
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+
+    .profile-card {
+        background-color: #004d26; /* Dark green */
+        color: white;
+        max-width: 375px;
+        margin-top: 10px;
+        padding: 11px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .profile-card2 {
+        background-color: #004d26; /* Dark green */
+        color: white;
+        max-width: 375px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 11px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .text-section {
+        padding-right: 20px;
+        margin-left: 0.3em;
+    }
+    .text-section h2 {
+        margin-bottom: 10px;
+        font-size: small;
+        
+    }
+    .text-section p {
+        font-size: small;
+        line-height: 2;
+    }
+    .text-section span {
+        font-size: small;
+        font-weight: bold;
+    }
+    .image-section {
+        flex-shrink: 0;
+    }
+    .image-section img {
+        width: 50px;
+        height: auto;
+        border-radius: 10px; /* Optional: makes the image look smoother */
+    }
+    .garis-kepsek {
+        background-color: #00A86B;
+        width: 42%;
+        height: 1px;
+        border: none;
+        text-align: left;
+        margin-left: 0px;
     }
 
     .footer {
@@ -452,7 +509,8 @@ h1, span, p, .motto, .infoFooter, .content {
     background-color: #004d26; /* Dark green */
     color: white;
     width: 675px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 11px;
     padding-bottom: 50px;
     border-radius: 10px;
@@ -461,9 +519,8 @@ h1, span, p, .motto, .infoFooter, .content {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .text-section {
-    flex: 1;
     padding-right: 20px;
-    margin-left: 128px;
+    margin-left: 0.7em;
 }
 .text-section h2 {
     margin-bottom: 10px;
@@ -471,7 +528,7 @@ h1, span, p, .motto, .infoFooter, .content {
     
 }
 .text-section p {
-    line-height: 0.5;
+    line-height: 2;
 }
 .text-section span {
     font-weight: bold;
@@ -486,7 +543,7 @@ h1, span, p, .motto, .infoFooter, .content {
 }
 .garis-kepsek {
     background-color: #00A86B;
-    width: 42%;
+    width: 72%;
     height: 1px;
     border: none;
     text-align: left;

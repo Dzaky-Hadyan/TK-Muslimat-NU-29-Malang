@@ -175,7 +175,6 @@ body {
 .info {
     font-size: medium;
     color: white;
-    line-height: 25px;
 }
 
 #baris-akhir {
@@ -183,17 +182,22 @@ body {
 }
 
 .infoFooter {
-    margin-left: 370px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 #LogoFooter {
-    margin-top: 35px;
-    margin-left: 60px;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 2em;
 }
 
 #namadaninfo {
-    margin-top: 35px;
+    margin-top: 3em;
+}
+
+.footnote {
+    margin-left: 2em;
+    margin-right: 3em;
 }
 
 .cpyright {
