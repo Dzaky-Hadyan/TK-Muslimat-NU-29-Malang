@@ -104,7 +104,7 @@ body {
     background-color: #81bc55;
     color: white;
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
     padding-right: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -222,6 +222,16 @@ body {
 }
 
 @media (max-width: 768px) {
+    @font-face {
+        font-family: Georama;
+        src: url("../Assets/Font/Georama-VariableFont_wdth\,wght.ttf") format("truetype");
+    }
+    
+    @font-face {
+        font-family: Khyay;
+        src: url("../Assets/Font/Khyay-Regular.ttf");
+    }
+
     .header {
         align-items: center;
         padding: 10px;
@@ -311,7 +321,7 @@ body {
     .lime-box-bottom {
         background-color: #e9fed9;
         color: white;
-        height: auto;
+        height: 500px;
         padding-top: 20px;
         padding-bottom: 2px;
         padding-left: 20px;
@@ -423,7 +433,7 @@ body {
 .header, .navbar, .namatk {
     font-family: Georama;
 }
-h1, span, p, .motto, .infoFooter {
+h1, span, p, .motto, .infoFooter, .content {
     font-family: Khyay;
 }
 .profile-card {
