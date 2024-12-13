@@ -330,6 +330,7 @@ h3 {
   .footnote {
     margin-right: 0.2em;
     margin-top: -0.6em;
+    margin-left: 30px;
   }
 
   #logoFooter {
@@ -344,10 +345,6 @@ h3 {
 
   .cpyright {
     font-size: 0.1em;
-  }
-
-  .footnote {
-    margin-left: 30px;
   }
 }
 
