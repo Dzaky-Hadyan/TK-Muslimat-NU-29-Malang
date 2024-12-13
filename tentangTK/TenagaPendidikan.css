@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Georama;
+    src: url(../Assets/Font/Georama-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Khyay;
+    src: url(../Assets/Font/Khyay-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    margin-top: -19px;
+    display: flex;
+    background-color: rgb(00, 53, 29);
+    justify-content: space-evenly;
+    font-size: 1em;
+    font-weight: 900;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.logoNU {
+    width: 4%;
+    height: 4%;
+}
+
+.TELEPON {
+    color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.EMAIL {
+    color: #D4FBB7;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+#tkname {
+    margin-top: 40px;
+    margin-right: 178px;
+}
+#logoTK {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.garisnav {
+    padding: 3px;
+    background-color: #81BC55;
+    display: grid;
+}
+
+.logoNU {
+    width: 4%;
+    height: 4%;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #D4FBB7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #81BC55;
+}
+.content {
+    display: flex;
+    justify-content: left;
+}
+
+.limebox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 28%;
+    min-width: 358px;
+}
+
+.lime-box-top {
+    background-color: #81bc55;
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.lime-box-bottom {
+    background-color: #e9fed9;
+    color: white;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.shortcutHome {
+    text-decoration: none;
+    color: black;
+
+}
+
+.shortcutProfil {
+    text-decoration: none;
+    color: #708238;
+}
+.list-tentangTK a {
+    font-size: 20px;
+    color: #4f7942;
+    text-decoration: none;
+}
+
+.list-tentangTK hr {
+    border: none;
+    border: none;
+    height: 2px;
+    background-color: #81bc55;
+    width: 100%;
+    margin-top: 25px;
+}
+.profile-card1 {
+    background-color: #004d26; /* Dark green */
+    color: white;
+    width: 80%;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    padding-left: 3em;
+    margin-left: 1em;
+}
+.profile-card2 {
+    background-color: #004d26; /* Dark green */
+    color: white;
+    width: 80%;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    padding-right: 3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+.profile-card3 {
+    background-color: #004d26; /* Dark green */
+    color: white;
+    width: 80%;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    padding-left: 3em;
+    margin-left: 1em;
+}
+.profile-card4 {
+    background-color: #004d26; /* Dark green */
+    color: white;
+    width: 80%;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    padding-right: 3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+#gambar-guru1, #gambar-guru3 {
+    width: 70%;
+    height: auto;
+    border-radius: 10px; /* Optional: makes the image look smoother */
+    margin-left: 3em;
+}
+#gambar-guru2, #gambar-guru4 {
+    width: 70%;
+    height: auto;
+    border-radius: 10px; /* Optional: makes the image look smoother */
+    margin-right: 3em;
+}
+
+.footer {
+    display: flex;
+    background-color: #005329;
+    justify-content: space-evenly;
+    font-size: 1em;
+    padding: 20px;
+    font-weight: 900;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hubungiKami {
+    font-size: large;
+}
+
+.info {
+    font-size: medium;
+    color: white;
+}
+
+#baris-akhir {
+    margin-bottom: 50px;
+}
+
+.infoFooter {
+    margin-right: 20px;
+}
+
+#LogoFooter {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+#namadaninfo {
+    margin-top: 3em;
+}
+
+.footnote {
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+.cpyright {
+    background-color: #005329;
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+
+@font-face {
+    font-family: Georama;
+    src: url("../Assets/Font/Georama-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Khyay;
+    src: url("../Assets/Font/Khyay-Regular.ttf");
+}
+
+.namatk,
+.TELEPON,
+.EMAIL,
+.cpyright,
+.navbar {
+    font-family: Georama;
+}
+
+.info,
+.judul,
+.content,
+.teks-isi,
+.Motto,
+.infoFooter {
+    font-family: Khyay;
+}
+
+@media (max-width: 768px)  {
+    .header {
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%; /* Ensure it spans full width */
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    }
+    #logoTK {
+      padding-top: 0.3em;
+      height: 5em;
+    }
+    .header img {
+        width: 50px;
+        height: auto;
+    }
+    #tkname, .TELEPON, .EMAIL, .info {
+        margin: 5px 0;
+        font-size: 0.8em;
+        text-align: center; /* Align text */
+    }
+    .navbar {
+        padding: 10px 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar a {
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+    .footer {
+        display: flex;
+        font-size: 0.8em;
+    }
+    .infoFooter {
+      text-align:justify;
+      margin-left: 2em;
+    }
+    #info-bawah {
+      text-align: left;
+    }
+    .footnote {
+    margin-right: 0.2em;
+    margin-top: -0.6em;
+    }
+    #logoFooter {
+        width: 50px;
+        height: auto;
+        
+    }
+    .infoFooter, .footnote {
+        font-size: 0.8em;
+    }
+    .cpyright {
+        font-size: 0.1em;
+    }
+    .limebox {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        margin-left: 3em;
+        margin-right: 1.5em;
+        width: 8%;
+        min-width: 8em;
+    }
+    .lime-box-top {
+        background-color: #81bc55;
+        color: white;
+        text-align: center;
+        font-size: 0.7em;
+        padding: 1.5em;
+    }
+    .lime-box-bottom {
+        background-color: #e9fed9;
+        color: white;
+        height: 61%;
+        padding-top: 1.5em;
+        padding-bottom: 0.2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .list-tentangTK a {
+        font-size: 0.4em;
+        color: #4f7942;
+        text-decoration: none;
+    }
+    .list-tentangTK hr {
+        border: none;
+        border: none;
+        height: 2px;
+        background-color: #81bc55;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .shortcutHome {
+        text-decoration: none;
+        color: black;
+    }
+    .shortcutProfil {
+        text-decoration: none;
+        color: #708238;
+    }
+    .profile-card1, .profile-card3 {
+        background-color: #004d26; /* Dark green */
+        color: white;
+        max-width: 100%;
+        margin-top: 1em;
+        padding-bottom: 3em;
+        padding-top: 3em;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 0.5em;
+        align-items: center;
+        padding-right: 2em;
+        padding-left: 3em;
+        margin-bottom: 1em;
+    }
+    .profile-card2, .profile-card4 {
+        background-color: #004d26; /* Dark green */
+        color: white;
+        max-width: 100%;
+        margin-top: 1em;
+        padding-bottom: 3em;
+        padding-top: 3em;
+        border-radius: 10px;
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 0.5em;
+        align-items: center;
+        padding-right: 3em;
+        padding-left: 2em;
+    }
+    #gambar-guru1, #gambar-guru3 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Optional: makes the image look smoother */
+        margin-left: 2em;
+    }
+    #gambar-guru2, #gambar-guru4 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Optional: makes the image look smoother */
+        margin-right: 2em;
+    }
+  #baris-akhir {
+    margin-bottom: 50px;
+  }
+  .infoFooter {
+    margin-right: 20px;
+  }
+  #LogoFooter {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  #namadaninfo {
+    margin-top: 3em;
+  }
+  .footnote {
+    margin-left: 2em;
+    margin-right: 3em;
+  }
+    
+}
