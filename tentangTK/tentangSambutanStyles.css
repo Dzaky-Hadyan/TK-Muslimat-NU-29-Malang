@@ -104,7 +104,7 @@ body {
 .lime-box-bottom {
     background-color: #e9fed9;
     color: white;
-    height: 600px;
+    height: 650px;
     padding-top: 20px;
     padding-bottom: 2px;
     padding-left: 20px;
@@ -395,6 +395,7 @@ body {
     .footer {
         display: flex;
         font-size: 0.8em;
+        min-width: 96%;
     }
 
     .infoFooter {
@@ -423,6 +424,7 @@ body {
 
     .cpyright {
         font-size: 0.1em;
+        min-width: 98.2%;
     }
 
     .footnote {
